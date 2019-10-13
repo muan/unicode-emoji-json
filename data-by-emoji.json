@@ -1258,37 +1258,8 @@
     "group": "People & Body",
     "name": "person_blond_hair",
     "version": "6.0",
-    "fitzpatrick_scale": false
-  },
-  "👱🏻": {
-    "group": "People & Body",
-    "name": "person_light_skin_tone_blond_hair",
-    "version": "8.0",
-    "fitzpatrick_scale": false
-  },
-  "👱🏼": {
-    "group": "People & Body",
-    "name": "person_medium_light_skin_tone_blond_hair",
-    "version": "8.0",
-    "fitzpatrick_scale": false
-  },
-  "👱🏽": {
-    "group": "People & Body",
-    "name": "person_medium_skin_tone_blond_hair",
-    "version": "8.0",
-    "fitzpatrick_scale": false
-  },
-  "👱🏾": {
-    "group": "People & Body",
-    "name": "person_medium_dark_skin_tone_blond_hair",
-    "version": "8.0",
-    "fitzpatrick_scale": false
-  },
-  "👱🏿": {
-    "group": "People & Body",
-    "name": "person_dark_skin_tone_blond_hair",
-    "version": "8.0",
-    "fitzpatrick_scale": false
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "8.0"
   },
   "👨": {
     "group": "People & Body",
@@ -1301,217 +1272,43 @@
     "group": "People & Body",
     "name": "man_beard",
     "version": "10.0",
-    "fitzpatrick_scale": false
-  },
-  "🧔🏻": {
-    "group": "People & Body",
-    "name": "man_light_skin_tone_beard",
-    "version": "10.0",
-    "fitzpatrick_scale": false
-  },
-  "🧔🏼": {
-    "group": "People & Body",
-    "name": "man_medium_light_skin_tone_beard",
-    "version": "10.0",
-    "fitzpatrick_scale": false
-  },
-  "🧔🏽": {
-    "group": "People & Body",
-    "name": "man_medium_skin_tone_beard",
-    "version": "10.0",
-    "fitzpatrick_scale": false
-  },
-  "🧔🏾": {
-    "group": "People & Body",
-    "name": "man_medium_dark_skin_tone_beard",
-    "version": "10.0",
-    "fitzpatrick_scale": false
-  },
-  "🧔🏿": {
-    "group": "People & Body",
-    "name": "man_dark_skin_tone_beard",
-    "version": "10.0",
-    "fitzpatrick_scale": false
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
   },
   "👱‍♂️": {
     "group": "People & Body",
     "name": "man_blond_hair",
     "version": "6.0",
-    "fitzpatrick_scale": false
-  },
-  "👱🏻‍♂️": {
-    "group": "People & Body",
-    "name": "man_light_skin_tone_blond_hair",
-    "version": "8.0",
-    "fitzpatrick_scale": false
-  },
-  "👱🏼‍♂️": {
-    "group": "People & Body",
-    "name": "man_medium_light_skin_tone_blond_hair",
-    "version": "8.0",
-    "fitzpatrick_scale": false
-  },
-  "👱🏽‍♂️": {
-    "group": "People & Body",
-    "name": "man_medium_skin_tone_blond_hair",
-    "version": "8.0",
-    "fitzpatrick_scale": false
-  },
-  "👱🏾‍♂️": {
-    "group": "People & Body",
-    "name": "man_medium_dark_skin_tone_blond_hair",
-    "version": "8.0",
-    "fitzpatrick_scale": false
-  },
-  "👱🏿‍♂️": {
-    "group": "People & Body",
-    "name": "man_dark_skin_tone_blond_hair",
-    "version": "8.0",
-    "fitzpatrick_scale": false
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "8.0"
   },
   "👨‍🦰": {
     "group": "People & Body",
     "name": "man_red_hair",
     "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏻‍🦰": {
-    "group": "People & Body",
-    "name": "man_light_skin_tone_red_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏼‍🦰": {
-    "group": "People & Body",
-    "name": "man_medium_light_skin_tone_red_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏽‍🦰": {
-    "group": "People & Body",
-    "name": "man_medium_skin_tone_red_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏾‍🦰": {
-    "group": "People & Body",
-    "name": "man_medium_dark_skin_tone_red_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏿‍🦰": {
-    "group": "People & Body",
-    "name": "man_dark_skin_tone_red_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "11.0"
   },
   "👨‍🦱": {
     "group": "People & Body",
     "name": "man_curly_hair",
     "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏻‍🦱": {
-    "group": "People & Body",
-    "name": "man_light_skin_tone_curly_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏼‍🦱": {
-    "group": "People & Body",
-    "name": "man_medium_light_skin_tone_curly_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏽‍🦱": {
-    "group": "People & Body",
-    "name": "man_medium_skin_tone_curly_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏾‍🦱": {
-    "group": "People & Body",
-    "name": "man_medium_dark_skin_tone_curly_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏿‍🦱": {
-    "group": "People & Body",
-    "name": "man_dark_skin_tone_curly_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "11.0"
   },
   "👨‍🦳": {
     "group": "People & Body",
     "name": "man_white_hair",
     "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏻‍🦳": {
-    "group": "People & Body",
-    "name": "man_light_skin_tone_white_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏼‍🦳": {
-    "group": "People & Body",
-    "name": "man_medium_light_skin_tone_white_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏽‍🦳": {
-    "group": "People & Body",
-    "name": "man_medium_skin_tone_white_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏾‍🦳": {
-    "group": "People & Body",
-    "name": "man_medium_dark_skin_tone_white_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏿‍🦳": {
-    "group": "People & Body",
-    "name": "man_dark_skin_tone_white_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "11.0"
   },
   "👨‍🦲": {
     "group": "People & Body",
     "name": "man_bald",
     "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏻‍🦲": {
-    "group": "People & Body",
-    "name": "man_light_skin_tone_bald",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏼‍🦲": {
-    "group": "People & Body",
-    "name": "man_medium_light_skin_tone_bald",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏽‍🦲": {
-    "group": "People & Body",
-    "name": "man_medium_skin_tone_bald",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏾‍🦲": {
-    "group": "People & Body",
-    "name": "man_medium_dark_skin_tone_bald",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👨🏿‍🦲": {
-    "group": "People & Body",
-    "name": "man_dark_skin_tone_bald",
-    "version": "11.0",
-    "fitzpatrick_scale": false
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "11.0"
   },
   "👩": {
     "group": "People & Body",
@@ -1524,181 +1321,36 @@
     "group": "People & Body",
     "name": "woman_blond_hair",
     "version": "6.0",
-    "fitzpatrick_scale": false
-  },
-  "👱🏻‍♀️": {
-    "group": "People & Body",
-    "name": "woman_light_skin_tone_blond_hair",
-    "version": "8.0",
-    "fitzpatrick_scale": false
-  },
-  "👱🏼‍♀️": {
-    "group": "People & Body",
-    "name": "woman_medium_light_skin_tone_blond_hair",
-    "version": "8.0",
-    "fitzpatrick_scale": false
-  },
-  "👱🏽‍♀️": {
-    "group": "People & Body",
-    "name": "woman_medium_skin_tone_blond_hair",
-    "version": "8.0",
-    "fitzpatrick_scale": false
-  },
-  "👱🏾‍♀️": {
-    "group": "People & Body",
-    "name": "woman_medium_dark_skin_tone_blond_hair",
-    "version": "8.0",
-    "fitzpatrick_scale": false
-  },
-  "👱🏿‍♀️": {
-    "group": "People & Body",
-    "name": "woman_dark_skin_tone_blond_hair",
-    "version": "8.0",
-    "fitzpatrick_scale": false
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "8.0"
   },
   "👩‍🦰": {
     "group": "People & Body",
     "name": "woman_red_hair",
     "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏻‍🦰": {
-    "group": "People & Body",
-    "name": "woman_light_skin_tone_red_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏼‍🦰": {
-    "group": "People & Body",
-    "name": "woman_medium_light_skin_tone_red_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏽‍🦰": {
-    "group": "People & Body",
-    "name": "woman_medium_skin_tone_red_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏾‍🦰": {
-    "group": "People & Body",
-    "name": "woman_medium_dark_skin_tone_red_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏿‍🦰": {
-    "group": "People & Body",
-    "name": "woman_dark_skin_tone_red_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "11.0"
   },
   "👩‍🦱": {
     "group": "People & Body",
     "name": "woman_curly_hair",
     "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏻‍🦱": {
-    "group": "People & Body",
-    "name": "woman_light_skin_tone_curly_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏼‍🦱": {
-    "group": "People & Body",
-    "name": "woman_medium_light_skin_tone_curly_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏽‍🦱": {
-    "group": "People & Body",
-    "name": "woman_medium_skin_tone_curly_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏾‍🦱": {
-    "group": "People & Body",
-    "name": "woman_medium_dark_skin_tone_curly_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏿‍🦱": {
-    "group": "People & Body",
-    "name": "woman_dark_skin_tone_curly_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "11.0"
   },
   "👩‍🦳": {
     "group": "People & Body",
     "name": "woman_white_hair",
     "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏻‍🦳": {
-    "group": "People & Body",
-    "name": "woman_light_skin_tone_white_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏼‍🦳": {
-    "group": "People & Body",
-    "name": "woman_medium_light_skin_tone_white_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏽‍🦳": {
-    "group": "People & Body",
-    "name": "woman_medium_skin_tone_white_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏾‍🦳": {
-    "group": "People & Body",
-    "name": "woman_medium_dark_skin_tone_white_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏿‍🦳": {
-    "group": "People & Body",
-    "name": "woman_dark_skin_tone_white_hair",
-    "version": "11.0",
-    "fitzpatrick_scale": false
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "11.0"
   },
   "👩‍🦲": {
     "group": "People & Body",
     "name": "woman_bald",
     "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏻‍🦲": {
-    "group": "People & Body",
-    "name": "woman_light_skin_tone_bald",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏼‍🦲": {
-    "group": "People & Body",
-    "name": "woman_medium_light_skin_tone_bald",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏽‍🦲": {
-    "group": "People & Body",
-    "name": "woman_medium_skin_tone_bald",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏾‍🦲": {
-    "group": "People & Body",
-    "name": "woman_medium_dark_skin_tone_bald",
-    "version": "11.0",
-    "fitzpatrick_scale": false
-  },
-  "👩🏿‍🦲": {
-    "group": "People & Body",
-    "name": "woman_dark_skin_tone_bald",
-    "version": "11.0",
-    "fitzpatrick_scale": false
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "11.0"
   },
   "🧓": {
     "group": "People & Body",
