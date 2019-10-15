@@ -16,7 +16,9 @@ Full description can be found at http://www.unicode.org/reports/tr51/.
 
 ### Skin tone variations
 
-Emoji with skin tone variation support are consolidated into one entry, with a `fitzpatrick_scale` flag on them.
+Emoji's skin tone variations are consolidated into one base entry, with a `fitzpatrick_scale` flag on them.
+
+This means one entry of 👋 represents its 5 variations– 👋🏻, 👋🏼, 👋🏽, 👋🏾, 👋🏿; while raw unicode data list them as individual emoji entries.
 
 ## Files
 
