@@ -4,9 +4,11 @@ The primary objective of this library is to provide a up-to-date version of emoj
 
 ## Details
 
-### Fully-qualified emoji
+### RGI only
 
 This data does not contain minimally-qualified and unqualified emoji.
+
+> RGI: Recommended for General Interchange. A subset of emojis which is likely to be widely supported across multiple platforms.
 
 > Minimally-qualified or unqualified emoji zwj sequences may be handled in the same way as their fully-qualified forms; the choice is up to the implementation.
 
