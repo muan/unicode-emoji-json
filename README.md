@@ -15,6 +15,13 @@ The primary objective of this library is to provide a up-to-date version of emoj
     "fitzpatrick_scale": false
   },
   ...
+  "👋": {
+    "group": "People & Body",
+    "name": "waving_hand",
+    "version": "6.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "8.0"
+  },
 }
 ```
 
