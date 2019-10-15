@@ -2,11 +2,19 @@
 
 The primary objective of this library is to provide a up-to-date version of emoji data from Unicode in JSON format, in a number of easily consumable file structures.
 
-This data does not contain `minimally-qualified` and `unqualified` emoji.
+## Details
+
+### Fully-qualified emoji
+
+This data does not contain minimally-qualified and unqualified emoji.
 
 > Minimally-qualified or unqualified emoji zwj sequences may be handled in the same way as their fully-qualified forms; the choice is up to the implementation.
 
 Full description can be found at http://www.unicode.org/reports/tr51/.
+
+### Skin tone variations
+
+Emoji with skin tone variation support are consolidated into one entry, with a `fitzpatrick_scale` flag on them.
 
 ## Files
 
