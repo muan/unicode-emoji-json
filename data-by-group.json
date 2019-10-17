@@ -8540,19 +8540,19 @@
     {
       "emoji": "🅰️",
       "fitzpatrick_scale": false,
-      "name": "a_button_blood_type_",
+      "name": "a_button",
       "version": "6.0"
     },
     {
       "emoji": "🆎",
       "fitzpatrick_scale": false,
-      "name": "ab_button_blood_type_",
+      "name": "ab_button",
       "version": "6.0"
     },
     {
       "emoji": "🅱️",
       "fitzpatrick_scale": false,
-      "name": "b_button_blood_type_",
+      "name": "b_button",
       "version": "6.0"
     },
     {
@@ -8606,7 +8606,7 @@
     {
       "emoji": "🅾️",
       "fitzpatrick_scale": false,
-      "name": "o_button_blood_type_",
+      "name": "o_button",
       "version": "6.0"
     },
     {
@@ -9226,7 +9226,7 @@
     {
       "emoji": "🇨🇨",
       "fitzpatrick_scale": false,
-      "name": "flag_cocos_keeling_islands",
+      "name": "flag_cocos_islands",
       "version": "6.0"
     },
     {
@@ -9898,7 +9898,7 @@
     {
       "emoji": "🇲🇲",
       "fitzpatrick_scale": false,
-      "name": "flag_myanmar_burma_",
+      "name": "flag_myanmar",
       "version": "6.0"
     },
     {

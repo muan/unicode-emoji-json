@@ -33,11 +33,21 @@ groupedEmojiData.split('\n').forEach(line => {
         if (line.match(SKIN_TONE_VARIATION_DESC)) return
         dataByEmoji[emoji] = {group: currentGroup}
       } else if (type === 'component') {
-        emojiComponents[desc.replace(/[\W|_]+/g, '_').toLowerCase()] = emoji
+        emojiComponents[slugify(desc)] = emoji
       }
     }
   }
 })
+
+// 'flag: St. Kitts & Nevis' -> 'flag_st_kitts_nevis'
+// 'family: woman, woman, boy, boy' -> 'family_woman_woman_boy_boy'
+// 'A button (blood type)' -> 'a_button'
+// 'Cocos (Keeling) Islands' -> 'cocos_islands'
+//
+// Returns machine readable emoji short code
+function slugify(str) {
+  return str.replace(/\(.+\)/g, '').trim().replace(/[\W|_]+/g, '_').toLowerCase()
+}
 
 // U+1F44B ; 6.0 # 👋 waving hand
 //          |1--| |2-|3----------|
@@ -66,9 +76,7 @@ orderedEmojiData.split('\n').forEach(line => {
 
   const {groups: {version, emoji, name, desc}} = match
   const isSkinToneVariation = desc && !!desc.match(SKIN_TONE_VARIATION_DESC)
-  // 'flag: St. Kitts & Nevis' -> 'flag_st_kitts_nevis'
-  // 'family: woman, woman, boy, boy' -> 'family_woman_woman_boy_boy'
-  const transformedName = (desc && !isSkinToneVariation ? [name, desc].join('_') : name).replace(/[\W|_]+/g, '_').toLowerCase()
+  const transformedName = slugify(desc && !isSkinToneVariation ? [name, desc].join(' ') : name)
   const finalName = nameExceptions[transformedName] || transformedName
   if (isSkinToneVariation) {
     dataByEmoji[currentEmoji].fitzpatrick_scale = true

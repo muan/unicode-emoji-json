@@ -8524,19 +8524,19 @@
   },
   "🅰️": {
     "group": "Symbols",
-    "name": "a_button_blood_type_",
+    "name": "a_button",
     "version": "6.0",
     "fitzpatrick_scale": false
   },
   "🆎": {
     "group": "Symbols",
-    "name": "ab_button_blood_type_",
+    "name": "ab_button",
     "version": "6.0",
     "fitzpatrick_scale": false
   },
   "🅱️": {
     "group": "Symbols",
-    "name": "b_button_blood_type_",
+    "name": "b_button",
     "version": "6.0",
     "fitzpatrick_scale": false
   },
@@ -8590,7 +8590,7 @@
   },
   "🅾️": {
     "group": "Symbols",
-    "name": "o_button_blood_type_",
+    "name": "o_button",
     "version": "6.0",
     "fitzpatrick_scale": false
   },
@@ -9208,7 +9208,7 @@
   },
   "🇨🇨": {
     "group": "Flags",
-    "name": "flag_cocos_keeling_islands",
+    "name": "flag_cocos_islands",
     "version": "6.0",
     "fitzpatrick_scale": false
   },
@@ -9880,7 +9880,7 @@
   },
   "🇲🇲": {
     "group": "Flags",
-    "name": "flag_myanmar_burma_",
+    "name": "flag_myanmar",
     "version": "6.0",
     "fitzpatrick_scale": false
   },
