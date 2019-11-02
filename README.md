@@ -24,7 +24,7 @@ This means one entry of 👋 represents its 5 variations– 👋🏻, 👋🏼, 
 
 `data-by-emoji.json`:
 
-```
+```json
 {
   "😀": {
     "name": "grinning_face",
@@ -47,7 +47,7 @@ This means one entry of 👋 represents its 5 variations– 👋🏻, 👋🏼, 
 
 `data-by-group.json`:
 
-```
+```json
 {
   "Smileys & Emotion": [
     {
@@ -74,7 +74,7 @@ This means one entry of 👋 represents its 5 variations– 👋🏻, 👋🏼, 
 
 `data-emoji-components.json`:
 
-```
+```json
 {
   "light_skin_tone": "🏻",
   "medium_light_skin_tone": "🏼",
