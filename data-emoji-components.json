@@ -1,11 +1,11 @@
 {
-  "e2_0_light_skin_tone": "🏻",
-  "e2_0_medium_light_skin_tone": "🏼",
-  "e2_0_medium_skin_tone": "🏽",
-  "e2_0_medium_dark_skin_tone": "🏾",
-  "e2_0_dark_skin_tone": "🏿",
-  "e11_0_red_hair": "🦰",
-  "e11_0_curly_hair": "🦱",
-  "e11_0_white_hair": "🦳",
-  "e11_0_bald": "🦲"
+  "light_skin_tone": "🏻",
+  "medium_light_skin_tone": "🏼",
+  "medium_skin_tone": "🏽",
+  "medium_dark_skin_tone": "🏾",
+  "dark_skin_tone": "🏿",
+  "red_hair": "🦰",
+  "curly_hair": "🦱",
+  "white_hair": "🦳",
+  "bald": "🦲"
 }
