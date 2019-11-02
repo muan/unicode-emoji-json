@@ -17,8 +17,18 @@ const emojiComponents = {}
 //   unqualified
 //
 // We only want fully-qualified emoji in the output data
+
+// # group: Smileys & Emotion
+//          |1--------------|
+//
 const GROUP_REGEX = /^#\sgroup:\s(?<name>.+)/
-const EMOJI_REGEX = /^[^#]+;\s(?<type>[\w-]+)\s+#\s(?<emoji>\S+)\s(?<desc>.+)/
+
+// 1F646 200D 2640 FE0F                       ; fully-qualified     # 🙆‍♀️ E4.0 woman gesturing OK
+//                                              |1------------|      |2--||3-| |4---------------|
+// 1F469 200D 1F469 200D 1F467 200D 1F467     ; fully-qualified     # 👩‍👩‍👧‍👧 E2.0 family: woman, woman, girl, girl
+//                                              |1------------|      |2-| |3| |4-----------------------------|
+//
+const EMOJI_REGEX = /^[^#]+;\s(?<type>[\w-]+)\s+#\s(?<emoji>\S+)\sE(?<version>\d+\.\d)\s(?<desc>.+)/
 let currentGroup = null
 
 groupedEmojiData.split('\n').forEach(line => {
