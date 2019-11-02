@@ -13,7 +13,7 @@
     "download": "node download-unicode-data.js",
     "build": "node build.js",
     "update": "npm run download && npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/muan/unicode-emoji-json/issues"
   },
-  "homepage": "https://github.com/muan/unicode-emoji-json#readme"
+  "homepage": "https://github.com/muan/unicode-emoji-json#readme",
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
+  }
 }
