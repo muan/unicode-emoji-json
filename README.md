@@ -16,7 +16,7 @@ Full description can be found at http://www.unicode.org/reports/tr51/.
 
 ### Skin tone variations
 
-Emoji's skin tone variations are consolidated into one base entry, with a `fitzpatrick_scale` flag on them.
+Emoji's skin tone variations are consolidated into one base entry, with a `skin_tone_support` flag on them.
 
 This means one entry of 👋 represents its 5 variations– 👋🏻, 👋🏼, 👋🏽, 👋🏾, 👋🏿; while raw unicode data list them as individual emoji entries.
 
@@ -27,18 +27,20 @@ This means one entry of 👋 represents its 5 variations– 👋🏻, 👋🏼, 
 ```
 {
   "😀": {
-    "group": "Smileys & Emotion",
     "name": "grinning_face",
-    "version": "6.1",
-    "fitzpatrick_scale": false
+    "group": "Smileys & Emotion",
+    "emoji_version": "2.0",
+    "unicode_version": "6.1",
+    "skin_tone_support": false
   },
   ...
   "👋": {
-    "group": "People & Body",
     "name": "waving_hand",
-    "version": "6.0",
-    "fitzpatrick_scale": true,
-    "fitzpatrick_scale_version": "8.0"
+    "group": "People & Body",
+    "emoji_version": "2.0",
+    "unicode_version": "6.0",
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "8.0"
   },
 }
 ```
@@ -50,9 +52,10 @@ This means one entry of 👋 represents its 5 variations– 👋🏻, 👋🏼, 
   "Smileys & Emotion": [
     {
       "emoji": "😀",
-      "fitzpatrick_scale": false,
+      "skin_tone_support": false,
       "name": "grinning_face",
-      "version": "6.1"
+      "unicode_version": "6.1",
+      "emoji_version": "2.0"
     },
   ],
   ...

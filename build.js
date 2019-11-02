@@ -28,7 +28,7 @@ const GROUP_REGEX = /^#\sgroup:\s(?<name>.+)/
 // 1F469 200D 1F469 200D 1F467 200D 1F467     ; fully-qualified     # 👩‍👩‍👧‍👧 E2.0 family: woman, woman, girl, girl
 //                                              |1------------|      |2-| |3| |4-----------------------------|
 //
-const EMOJI_REGEX = /^[^#]+;\s(?<type>[\w-]+)\s+#\s(?<emoji>\S+)\sE(?<version>\d+\.\d)\s(?<desc>.+)/
+const EMOJI_REGEX = /^[^#]+;\s(?<type>[\w-]+)\s+#\s(?<emoji>\S+)\sE(?<emojiversion>\d+\.\d)\s(?<desc>.+)/
 let currentGroup = null
 
 groupedEmojiData.split('\n').forEach(line => {
@@ -38,10 +38,16 @@ groupedEmojiData.split('\n').forEach(line => {
   } else {
     const emojiMatch = line.match(EMOJI_REGEX)
     if (emojiMatch) {
-      const {groups: {type, emoji, desc}} = emojiMatch
+      const {groups: {type, emoji, desc, emojiversion}} = emojiMatch
       if (type === 'fully-qualified') {
         if (line.match(SKIN_TONE_VARIATION_DESC)) return
-        dataByEmoji[emoji] = {group: currentGroup}
+        dataByEmoji[emoji] = {
+          name: null,
+          group: currentGroup,
+          emoji_version: emojiversion,
+          unicode_version: null,
+          skin_tone_support: null
+        }
       } else if (type === 'component') {
         emojiComponents[slugify(desc)] = emoji
       }
@@ -89,8 +95,8 @@ orderedEmojiData.split('\n').forEach(line => {
   const transformedName = slugify(desc && !isSkinToneVariation ? [name, desc].join(' ') : name)
   const finalName = nameExceptions[transformedName] || transformedName
   if (isSkinToneVariation) {
-    dataByEmoji[currentEmoji].fitzpatrick_scale = true
-    dataByEmoji[currentEmoji].fitzpatrick_scale_version = version
+    dataByEmoji[currentEmoji].skin_tone_support = true
+    dataByEmoji[currentEmoji].skin_tone_support_unicode_version = version
   } else {
     // Workaround for ordered data missing VARIATION_16 (smiling_face)
     emojiWithOptionalVariation16 = dataByEmoji[emoji] ? emoji : emoji + VARIATION_16
@@ -102,21 +108,22 @@ orderedEmojiData.split('\n').forEach(line => {
     currentEmoji = emojiWithOptionalVariation16
     orderedEmoji.push(currentEmoji)
     dataByEmoji[currentEmoji].name = finalName
-    dataByEmoji[currentEmoji].version = version
-    dataByEmoji[currentEmoji].fitzpatrick_scale = false
+    dataByEmoji[currentEmoji].unicode_version = version
+    dataByEmoji[currentEmoji].skin_tone_support = false
   }
 })
 
 for (const emoji of orderedEmoji) {
-  const {group, fitzpatrick_scale, fitzpatrick_scale_version, name, version} = dataByEmoji[emoji]
+  const {group, skin_tone_support, skin_tone_support_unicode_version, name, emoji_version, unicode_version} = dataByEmoji[emoji]
   const existingGroup = dataByGroup[group]
   if (!existingGroup) dataByGroup[group] = []
   dataByGroup[group].push({
     emoji,
-    fitzpatrick_scale,
-    fitzpatrick_scale_version,
+    skin_tone_support,
+    skin_tone_support_unicode_version,
     name,
-    version
+    unicode_version,
+    emoji_version
   })
 }
 
@@ -125,7 +132,7 @@ for (const emoji of orderedEmoji) {
 //     "group": "Smileys & Emotion",
 //     "name": "grinning_face",
 //     "version": "6.1",
-//     "fitzpatrick_scale": false
+//     "skin_tone_support": false
 //   },
 //   ...
 // }
@@ -135,7 +142,7 @@ fs.writeFileSync('data-by-emoji.json', JSON.stringify(dataByEmoji, null, 2))
 //   "Smileys & Emotion": [
 //     {
 //       "emoji": "😀",
-//       "fitzpatrick_scale": false,
+//       "skin_tone_support": false,
 //       "name": "grinning_face",
 //       "version": "6.1"
 //     },
