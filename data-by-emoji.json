@@ -1275,13 +1275,6 @@
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "10.0"
   },
-  "👱‍♂️": {
-    "group": "People & Body",
-    "name": "man_blond_hair",
-    "version": "6.0",
-    "fitzpatrick_scale": true,
-    "fitzpatrick_scale_version": "8.0"
-  },
   "👨‍🦰": {
     "group": "People & Body",
     "name": "man_red_hair",
@@ -1317,16 +1310,16 @@
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
   },
-  "👱‍♀️": {
-    "group": "People & Body",
-    "name": "woman_blond_hair",
-    "version": "6.0",
-    "fitzpatrick_scale": true,
-    "fitzpatrick_scale_version": "8.0"
-  },
   "👩‍🦰": {
     "group": "People & Body",
     "name": "woman_red_hair",
+    "version": "11.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "11.0"
+  },
+  "🧑‍🦰": {
+    "group": "People & Body",
+    "name": "person_red_hair",
     "version": "11.0",
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "11.0"
@@ -1338,9 +1331,23 @@
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "11.0"
   },
+  "🧑‍🦱": {
+    "group": "People & Body",
+    "name": "person_curly_hair",
+    "version": "11.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "11.0"
+  },
   "👩‍🦳": {
     "group": "People & Body",
     "name": "woman_white_hair",
+    "version": "11.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "11.0"
+  },
+  "🧑‍🦳": {
+    "group": "People & Body",
+    "name": "person_white_hair",
     "version": "11.0",
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "11.0"
@@ -1351,6 +1358,27 @@
     "version": "11.0",
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "11.0"
+  },
+  "🧑‍🦲": {
+    "group": "People & Body",
+    "name": "person_bald",
+    "version": "11.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "11.0"
+  },
+  "👱‍♀️": {
+    "group": "People & Body",
+    "name": "woman_blond_hair",
+    "version": "6.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "8.0"
+  },
+  "👱‍♂️": {
+    "group": "People & Body",
+    "name": "man_blond_hair",
+    "version": "6.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "8.0"
   },
   "🧓": {
     "group": "People & Body",
@@ -1583,6 +1611,13 @@
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "9.0"
   },
+  "🧑‍⚕️": {
+    "group": "People & Body",
+    "name": "health_worker",
+    "version": "10.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
+  },
   "👨‍⚕️": {
     "group": "People & Body",
     "name": "man_health_worker",
@@ -1596,6 +1631,13 @@
     "version": "6.0",
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
+  },
+  "🧑‍🎓": {
+    "group": "People & Body",
+    "name": "student",
+    "version": "10.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
   },
   "👨‍🎓": {
     "group": "People & Body",
@@ -1611,6 +1653,13 @@
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
   },
+  "🧑‍🏫": {
+    "group": "People & Body",
+    "name": "teacher",
+    "version": "10.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
+  },
   "👨‍🏫": {
     "group": "People & Body",
     "name": "man_teacher",
@@ -1624,6 +1673,13 @@
     "version": "6.0",
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
+  },
+  "🧑‍⚖️": {
+    "group": "People & Body",
+    "name": "judge",
+    "version": "10.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
   },
   "👨‍⚖️": {
     "group": "People & Body",
@@ -1639,6 +1695,13 @@
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
   },
+  "🧑‍🌾": {
+    "group": "People & Body",
+    "name": "farmer",
+    "version": "10.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
+  },
   "👨‍🌾": {
     "group": "People & Body",
     "name": "man_farmer",
@@ -1652,6 +1715,13 @@
     "version": "6.0",
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
+  },
+  "🧑‍🍳": {
+    "group": "People & Body",
+    "name": "cook",
+    "version": "10.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
   },
   "👨‍🍳": {
     "group": "People & Body",
@@ -1667,6 +1737,13 @@
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
   },
+  "🧑‍🔧": {
+    "group": "People & Body",
+    "name": "mechanic",
+    "version": "10.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
+  },
   "👨‍🔧": {
     "group": "People & Body",
     "name": "man_mechanic",
@@ -1680,6 +1757,13 @@
     "version": "6.0",
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
+  },
+  "🧑‍🏭": {
+    "group": "People & Body",
+    "name": "factory_worker",
+    "version": "10.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
   },
   "👨‍🏭": {
     "group": "People & Body",
@@ -1695,6 +1779,13 @@
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
   },
+  "🧑‍💼": {
+    "group": "People & Body",
+    "name": "office_worker",
+    "version": "10.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
+  },
   "👨‍💼": {
     "group": "People & Body",
     "name": "man_office_worker",
@@ -1708,6 +1799,13 @@
     "version": "6.0",
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
+  },
+  "🧑‍🔬": {
+    "group": "People & Body",
+    "name": "scientist",
+    "version": "10.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
   },
   "👨‍🔬": {
     "group": "People & Body",
@@ -1723,6 +1821,13 @@
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
   },
+  "🧑‍💻": {
+    "group": "People & Body",
+    "name": "technologist",
+    "version": "10.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
+  },
   "👨‍💻": {
     "group": "People & Body",
     "name": "man_technologist",
@@ -1736,6 +1841,13 @@
     "version": "6.0",
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
+  },
+  "🧑‍🎤": {
+    "group": "People & Body",
+    "name": "singer",
+    "version": "10.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
   },
   "👨‍🎤": {
     "group": "People & Body",
@@ -1751,6 +1863,13 @@
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
   },
+  "🧑‍🎨": {
+    "group": "People & Body",
+    "name": "artist",
+    "version": "10.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
+  },
   "👨‍🎨": {
     "group": "People & Body",
     "name": "man_artist",
@@ -1764,6 +1883,13 @@
     "version": "6.0",
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
+  },
+  "🧑‍✈️": {
+    "group": "People & Body",
+    "name": "pilot",
+    "version": "10.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
   },
   "👨‍✈️": {
     "group": "People & Body",
@@ -1779,6 +1905,13 @@
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
   },
+  "🧑‍🚀": {
+    "group": "People & Body",
+    "name": "astronaut",
+    "version": "10.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
+  },
   "👨‍🚀": {
     "group": "People & Body",
     "name": "man_astronaut",
@@ -1792,6 +1925,13 @@
     "version": "6.0",
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
+  },
+  "🧑‍🚒": {
+    "group": "People & Body",
+    "name": "firefighter",
+    "version": "10.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "10.0"
   },
   "👨‍🚒": {
     "group": "People & Body",
@@ -1928,7 +2068,7 @@
   },
   "👲": {
     "group": "People & Body",
-    "name": "man_with_chinese_cap",
+    "name": "man_with_skullcap",
     "version": "6.0",
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "8.0"
@@ -2277,6 +2417,13 @@
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "12.0"
   },
+  "🧑‍🦯": {
+    "group": "People & Body",
+    "name": "person_with_probing_cane",
+    "version": "12.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "12.0"
+  },
   "👨‍🦯": {
     "group": "People & Body",
     "name": "man_with_probing_cane",
@@ -2291,6 +2438,13 @@
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "12.0"
   },
+  "🧑‍🦼": {
+    "group": "People & Body",
+    "name": "person_in_motorized_wheelchair",
+    "version": "12.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "12.0"
+  },
   "👨‍🦼": {
     "group": "People & Body",
     "name": "man_in_motorized_wheelchair",
@@ -2301,6 +2455,13 @@
   "👩‍🦼": {
     "group": "People & Body",
     "name": "woman_in_motorized_wheelchair",
+    "version": "12.0",
+    "fitzpatrick_scale": true,
+    "fitzpatrick_scale_version": "12.0"
+  },
+  "🧑‍🦽": {
+    "group": "People & Body",
+    "name": "person_in_manual_wheelchair",
     "version": "12.0",
     "fitzpatrick_scale": true,
     "fitzpatrick_scale_version": "12.0"

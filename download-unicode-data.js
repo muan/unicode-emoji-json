@@ -1,4 +1,4 @@
-const currentVersion = '12.0'
+const currentVersion = '12.1'
 const fs = require('fs')
 const https = require('https')
 const files = {
