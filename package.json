@@ -11,7 +11,6 @@
   ],
   "scripts": {
     "download": "node script/download-unicode-data.js",
-    "prebuild": "npm run download",
     "build": "node script/build.js && node script/generate-emoji-counts.js",
     "test": "node test/test.js | tap-spec"
   },
