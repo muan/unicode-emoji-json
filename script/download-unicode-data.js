@@ -5,7 +5,9 @@ const files = {
   // Complete emoji list with version
   'emoji-order.txt': `https://unicode.org/emoji/charts-${currentVersion}/emoji-ordering.txt`,
   // Grouped emoji list with qualifier
-  'emoji-group.txt': `https://unicode.org/Public/emoji/${currentVersion}/emoji-test.txt`
+  'emoji-group.txt': `https://unicode.org/Public/emoji/${currentVersion}/emoji-test.txt`,
+  // Emoji count
+  'emoji-counts.html': `https://unicode.org/emoji/charts-${currentVersion}/emoji-counts.html`
 }
 
 for (const name of Object.keys(files)) {

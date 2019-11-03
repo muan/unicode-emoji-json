@@ -10,10 +10,10 @@
     "data-emoji-components.json"
   ],
   "scripts": {
-    "download": "node download-unicode-data.js",
-    "build": "node build.js",
-    "update": "npm run download && npm run build",
-    "test": "node test.js | tap-spec"
+    "prebuild": "node script/download-unicode-data.js",
+    "build": "node script/build.js",
+    "pretest": "node script/generate-emoji-counts.js",
+    "test": "node test/test.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/muan/unicode-emoji-json#readme",
   "devDependencies": {
+    "fast-html-parser": "^1.0.1",
     "tap-spec": "^5.0.0",
     "tape": "^4.11.0"
   }
