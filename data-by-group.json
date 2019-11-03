@@ -2412,12 +2412,44 @@
       "emoji_version": "4.0"
     },
     {
+      "emoji": "🤵‍♂️",
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "9.0",
+      "name": "man_in_tuxedo",
+      "unicode_version": "9.0",
+      "emoji_version": "13.0"
+    },
+    {
+      "emoji": "🤵‍♀️",
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "9.0",
+      "name": "woman_in_tuxedo",
+      "unicode_version": "9.0",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "👰",
       "skin_tone_support": true,
       "skin_tone_support_unicode_version": "8.0",
       "name": "bride_with_veil",
       "unicode_version": "6.0",
       "emoji_version": "2.0"
+    },
+    {
+      "emoji": "👰‍♂️",
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "8.0",
+      "name": "man_with_veil",
+      "unicode_version": "6.0",
+      "emoji_version": "13.0"
+    },
+    {
+      "emoji": "👰‍♀️",
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "8.0",
+      "name": "woman_with_veil",
+      "unicode_version": "6.0",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🤰",
@@ -2434,6 +2466,30 @@
       "name": "breast_feeding",
       "unicode_version": "10.0",
       "emoji_version": "5.0"
+    },
+    {
+      "emoji": "👩‍🍼",
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "8.0",
+      "name": "woman_feeding_baby",
+      "unicode_version": "6.0",
+      "emoji_version": "13.0"
+    },
+    {
+      "emoji": "👨‍🍼",
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "8.0",
+      "name": "man_feeding_baby",
+      "unicode_version": "6.0",
+      "emoji_version": "13.0"
+    },
+    {
+      "emoji": "🧑‍🍼",
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "10.0",
+      "name": "person_feeding_baby",
+      "unicode_version": "10.0",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "👼",
@@ -2458,6 +2514,14 @@
       "name": "mrs_claus",
       "unicode_version": "9.0",
       "emoji_version": "4.0"
+    },
+    {
+      "emoji": "🧑‍🎄",
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "10.0",
+      "name": "mx_claus",
+      "unicode_version": "10.0",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🦸",
@@ -3756,6 +3820,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🐈‍⬛",
+      "skin_tone_support": false,
+      "name": "black_cat",
+      "unicode_version": "6.0",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🦁",
       "skin_tone_support": false,
       "name": "lion",
@@ -4013,6 +4084,13 @@
       "name": "bear",
       "unicode_version": "6.0",
       "emoji_version": "2.0"
+    },
+    {
+      "emoji": "🐻‍❄️",
+      "skin_tone_support": false,
+      "name": "polar_bear",
+      "unicode_version": "6.0",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🐨",
@@ -9744,6 +9822,13 @@
       "emoji_version": "4.0"
     },
     {
+      "emoji": "⚧️",
+      "skin_tone_support": false,
+      "name": "transgender_symbol",
+      "unicode_version": "4.1",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "⚕️",
       "skin_tone_support": false,
       "name": "medical_symbol",
@@ -10619,6 +10704,13 @@
       "name": "rainbow_flag",
       "unicode_version": "7.0",
       "emoji_version": "4.0"
+    },
+    {
+      "emoji": "🏳️‍⚧️",
+      "skin_tone_support": false,
+      "name": "transgender_flag",
+      "unicode_version": "7.0",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🏴‍☠️",
