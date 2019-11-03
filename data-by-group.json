@@ -148,6 +148,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🥲",
+      "skin_tone_support": false,
+      "name": "smiling_face_with_tear",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "😋",
       "skin_tone_support": false,
       "name": "face_savoring_food",
@@ -407,11 +414,25 @@
       "emoji_version": "4.0"
     },
     {
+      "emoji": "🥷",
+      "skin_tone_support": false,
+      "name": "ninja",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🥳",
       "skin_tone_support": false,
       "name": "partying_face",
       "unicode_version": "11.0",
       "emoji_version": "11.0"
+    },
+    {
+      "emoji": "🥸",
+      "skin_tone_support": false,
+      "name": "disguised_face",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "😎",
@@ -1094,6 +1115,14 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🤌",
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "NA",
+      "name": "pinched_fingers",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🤏",
       "skin_tone_support": true,
       "skin_tone_support_unicode_version": "12.0",
@@ -1376,6 +1405,20 @@
       "name": "brain",
       "unicode_version": "10.0",
       "emoji_version": "5.0"
+    },
+    {
+      "emoji": "🫀",
+      "skin_tone_support": false,
+      "name": "anatomical_heart",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
+      "emoji": "🫁",
+      "skin_tone_support": false,
+      "name": "lungs",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🦷",
@@ -3713,6 +3756,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🫂",
+      "skin_tone_support": false,
+      "name": "people_hugging",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "👣",
       "skin_tone_support": false,
       "name": "footprints",
@@ -3890,6 +3940,13 @@
       "emoji_version": "4.0"
     },
     {
+      "emoji": "🦬",
+      "skin_tone_support": false,
+      "name": "bison",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🐮",
       "skin_tone_support": false,
       "name": "cow_face",
@@ -4002,6 +4059,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🦣",
+      "skin_tone_support": false,
+      "name": "mammoth",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🦏",
       "skin_tone_support": false,
       "name": "rhinoceros",
@@ -4063,6 +4127,13 @@
       "name": "chipmunk",
       "unicode_version": "7.0",
       "emoji_version": "2.0"
+    },
+    {
+      "emoji": "🦫",
+      "skin_tone_support": false,
+      "name": "beaver",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🦔",
@@ -4240,6 +4311,20 @@
       "emoji_version": "4.0"
     },
     {
+      "emoji": "🦤",
+      "skin_tone_support": false,
+      "name": "dodo",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
+      "emoji": "🪶",
+      "skin_tone_support": false,
+      "name": "feather",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🦩",
       "skin_tone_support": false,
       "name": "flamingo",
@@ -4345,6 +4430,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🦭",
+      "skin_tone_support": false,
+      "name": "seal",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🐟",
       "skin_tone_support": false,
       "name": "fish",
@@ -4422,6 +4514,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🪲",
+      "skin_tone_support": false,
+      "name": "beetle",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🐞",
       "skin_tone_support": false,
       "name": "lady_beetle",
@@ -4434,6 +4533,13 @@
       "name": "cricket",
       "unicode_version": "10.0",
       "emoji_version": "5.0"
+    },
+    {
+      "emoji": "🪳",
+      "skin_tone_support": false,
+      "name": "cockroach",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🕷️",
@@ -4462,6 +4568,20 @@
       "name": "mosquito",
       "unicode_version": "11.0",
       "emoji_version": "11.0"
+    },
+    {
+      "emoji": "🪰",
+      "skin_tone_support": false,
+      "name": "fly",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
+      "emoji": "🪱",
+      "skin_tone_support": false,
+      "name": "worm",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🦠",
@@ -4546,6 +4666,13 @@
       "name": "seedling",
       "unicode_version": "6.0",
       "emoji_version": "2.0"
+    },
+    {
+      "emoji": "🪴",
+      "skin_tone_support": false,
+      "name": "potted_plant",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🌲",
@@ -4725,6 +4852,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🫐",
+      "skin_tone_support": false,
+      "name": "blueberries",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🥝",
       "skin_tone_support": false,
       "name": "kiwi_fruit",
@@ -4737,6 +4871,13 @@
       "name": "tomato",
       "unicode_version": "6.0",
       "emoji_version": "2.0"
+    },
+    {
+      "emoji": "🫒",
+      "skin_tone_support": false,
+      "name": "olive",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🥥",
@@ -4786,6 +4927,13 @@
       "name": "hot_pepper",
       "unicode_version": "7.0",
       "emoji_version": "2.0"
+    },
+    {
+      "emoji": "🫑",
+      "skin_tone_support": false,
+      "name": "bell_pepper",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🥒",
@@ -4863,6 +5011,13 @@
       "name": "baguette_bread",
       "unicode_version": "9.0",
       "emoji_version": "4.0"
+    },
+    {
+      "emoji": "🫓",
+      "skin_tone_support": false,
+      "name": "flatbread",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🥨",
@@ -4977,6 +5132,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🫔",
+      "skin_tone_support": false,
+      "name": "tamale",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🥙",
       "skin_tone_support": false,
       "name": "stuffed_flatbread",
@@ -5017,6 +5179,13 @@
       "name": "pot_of_food",
       "unicode_version": "6.0",
       "emoji_version": "2.0"
+    },
+    {
+      "emoji": "🫕",
+      "skin_tone_support": false,
+      "name": "fondue",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🥣",
@@ -5334,6 +5503,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🫖",
+      "skin_tone_support": false,
+      "name": "teapot",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🍵",
       "skin_tone_support": false,
       "name": "teacup_without_handle",
@@ -5409,6 +5585,13 @@
       "name": "cup_with_straw",
       "unicode_version": "10.0",
       "emoji_version": "5.0"
+    },
+    {
+      "emoji": "🧋",
+      "skin_tone_support": false,
+      "name": "bubble_tea",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🧃",
@@ -5614,6 +5797,27 @@
       "name": "brick",
       "unicode_version": "11.0",
       "emoji_version": "11.0"
+    },
+    {
+      "emoji": "🪨",
+      "skin_tone_support": false,
+      "name": "rock",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
+      "emoji": "🪵",
+      "skin_tone_support": false,
+      "name": "wood",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
+      "emoji": "🛖",
+      "skin_tone_support": false,
+      "name": "hut",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🏘️",
@@ -6085,6 +6289,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🛻",
+      "skin_tone_support": false,
+      "name": "pickup_truck",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🚚",
       "skin_tone_support": false,
       "name": "delivery_truck",
@@ -6167,6 +6378,13 @@
       "name": "skateboard",
       "unicode_version": "11.0",
       "emoji_version": "11.0"
+    },
+    {
+      "emoji": "🛼",
+      "skin_tone_support": false,
+      "name": "roller_skate",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🚏",
@@ -7361,6 +7579,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🪄",
+      "skin_tone_support": false,
+      "name": "magic_wand",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🧿",
       "skin_tone_support": false,
       "name": "nazar_amulet",
@@ -7408,6 +7633,20 @@
       "name": "teddy_bear",
       "unicode_version": "11.0",
       "emoji_version": "11.0"
+    },
+    {
+      "emoji": "🪅",
+      "skin_tone_support": false,
+      "name": "pi_ata",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
+      "emoji": "🪆",
+      "skin_tone_support": false,
+      "name": "nesting_dolls",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "♠️",
@@ -7494,11 +7733,25 @@
       "emoji_version": "11.0"
     },
     {
+      "emoji": "🪡",
+      "skin_tone_support": false,
+      "name": "sewing_needle",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🧶",
       "skin_tone_support": false,
       "name": "yarn",
       "unicode_version": "11.0",
       "emoji_version": "11.0"
+    },
+    {
+      "emoji": "🪢",
+      "skin_tone_support": false,
+      "name": "knot",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     }
   ],
   "Objects": [
@@ -7678,6 +7931,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🩴",
+      "skin_tone_support": false,
+      "name": "thong_sandal",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "👞",
       "skin_tone_support": false,
       "name": "man_s_shoe",
@@ -7767,6 +8027,13 @@
       "name": "billed_cap",
       "unicode_version": "10.0",
       "emoji_version": "5.0"
+    },
+    {
+      "emoji": "🪖",
+      "skin_tone_support": false,
+      "name": "military_helmet",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "⛑️",
@@ -7937,6 +8204,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🪗",
+      "skin_tone_support": false,
+      "name": "accordion",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🎸",
       "skin_tone_support": false,
       "name": "guitar",
@@ -7977,6 +8251,13 @@
       "name": "drum",
       "unicode_version": "9.0",
       "emoji_version": "4.0"
+    },
+    {
+      "emoji": "🪘",
+      "skin_tone_support": false,
+      "name": "long_drum",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "📱",
@@ -8348,6 +8629,13 @@
       "name": "money_bag",
       "unicode_version": "6.0",
       "emoji_version": "2.0"
+    },
+    {
+      "emoji": "🪙",
+      "skin_tone_support": false,
+      "name": "coin",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "💴",
@@ -8819,6 +9107,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🪃",
+      "skin_tone_support": false,
+      "name": "boomerang",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🏹",
       "skin_tone_support": false,
       "name": "bow_and_arrow",
@@ -8833,11 +9128,25 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🪚",
+      "skin_tone_support": false,
+      "name": "carpentry_saw",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🔧",
       "skin_tone_support": false,
       "name": "wrench",
       "unicode_version": "6.0",
       "emoji_version": "2.0"
+    },
+    {
+      "emoji": "🪛",
+      "skin_tone_support": false,
+      "name": "screwdriver",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🔩",
@@ -8889,6 +9198,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🪝",
+      "skin_tone_support": false,
+      "name": "hook",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🧰",
       "skin_tone_support": false,
       "name": "toolbox",
@@ -8901,6 +9217,13 @@
       "name": "magnet",
       "unicode_version": "11.0",
       "emoji_version": "11.0"
+    },
+    {
+      "emoji": "🪜",
+      "skin_tone_support": false,
+      "name": "ladder",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "⚗️",
@@ -8994,6 +9317,27 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🛗",
+      "skin_tone_support": false,
+      "name": "elevator",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
+      "emoji": "🪞",
+      "skin_tone_support": false,
+      "name": "mirror",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
+      "emoji": "🪟",
+      "skin_tone_support": false,
+      "name": "window",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🛏️",
       "skin_tone_support": false,
       "name": "bed",
@@ -9022,6 +9366,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🪠",
+      "skin_tone_support": false,
+      "name": "plunger",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🚿",
       "skin_tone_support": false,
       "name": "shower",
@@ -9034,6 +9385,13 @@
       "name": "bathtub",
       "unicode_version": "6.0",
       "emoji_version": "2.0"
+    },
+    {
+      "emoji": "🪤",
+      "skin_tone_support": false,
+      "name": "mouse_trap",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🪒",
@@ -9078,11 +9436,25 @@
       "emoji_version": "11.0"
     },
     {
+      "emoji": "🪣",
+      "skin_tone_support": false,
+      "name": "bucket",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "🧼",
       "skin_tone_support": false,
       "name": "soap",
       "unicode_version": "11.0",
       "emoji_version": "11.0"
+    },
+    {
+      "emoji": "🪥",
+      "skin_tone_support": false,
+      "name": "toothbrush",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     },
     {
       "emoji": "🧽",
@@ -9120,6 +9492,13 @@
       "emoji_version": "2.0"
     },
     {
+      "emoji": "🪦",
+      "skin_tone_support": false,
+      "name": "headstone",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
+    },
+    {
       "emoji": "⚱️",
       "skin_tone_support": false,
       "name": "funeral_urn",
@@ -9132,6 +9511,13 @@
       "name": "moai",
       "unicode_version": "6.0",
       "emoji_version": "2.0"
+    },
+    {
+      "emoji": "🪧",
+      "skin_tone_support": false,
+      "name": "placard",
+      "unicode_version": "NA",
+      "emoji_version": "13.0"
     }
   ],
   "Symbols": [
