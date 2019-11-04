@@ -43,6 +43,7 @@ groupedEmojiData.split('\n').forEach(line => {
         if (line.match(SKIN_TONE_VARIATION_DESC)) return
         dataByEmoji[emoji] = {
           name: null,
+          description: desc,
           group: currentGroup,
           emoji_version: emojiversion,
           unicode_version: null,
