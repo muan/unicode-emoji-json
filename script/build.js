@@ -77,13 +77,6 @@ function slugify(str) {
 //
 const ORDERED_EMOJI_REGEX = /.+\s;\s(?<version>[0-9.]+)\s#\s(?<emoji>\S+)\s(?<name>[^:]+)(?::\s)?(?<desc>.+)?/
 
-// Not sure why these are listed as `⊖gbeng`, `⊖gbsct`, `⊖gbwls`
-const nameExceptions = {
-  'flag_gbeng': 'flag_england',
-  'flag_gbsct': 'flag_scotland',
-  'flag_gbwls': 'flag_wales'
-}
-
 let currentEmoji = null
 
 orderedEmojiData.split('\n').forEach(line => {
@@ -94,7 +87,7 @@ orderedEmojiData.split('\n').forEach(line => {
   const {groups: {version, emoji, name, desc}} = match
   const isSkinToneVariation = desc && !!desc.match(SKIN_TONE_VARIATION_DESC)
   const transformedName = slugify(desc && !isSkinToneVariation ? [name, desc].join(' ') : name)
-  const finalName = nameExceptions[transformedName] || transformedName
+  const finalName = transformedName
   if (isSkinToneVariation) {
     dataByEmoji[currentEmoji].skin_tone_support = true
     dataByEmoji[currentEmoji].skin_tone_support_unicode_version = version
