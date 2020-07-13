@@ -74,7 +74,7 @@ function slugify(str) {
 // U+1F469 U+200D U+1F467 U+200D U+1F467 ; 6.0 # 👩‍👧‍👧 family: woman, girl, girl
 //                                        |1--| |2-|3-----||4----------------|
 //
-const ORDERED_EMOJI_REGEX = /.+\s;\s(?<version>[0-9.NA]+)\s#\s(?<emoji>\S+)\s(?<name>[^:]+)(?::\s)?(?<desc>.+)?/
+const ORDERED_EMOJI_REGEX = /.+\s;\s(?<version>[0-9.]+)\s#\s(?<emoji>\S+)\s(?<name>[^:]+)(?::\s)?(?<desc>.+)?/
 
 // Not sure why these are listed as `⊖gbeng`, `⊖gbsct`, `⊖gbwls`
 const nameExceptions = {
