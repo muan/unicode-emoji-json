@@ -43,6 +43,7 @@ groupedEmojiData.split('\n').forEach(line => {
         if (line.match(SKIN_TONE_VARIATION_DESC)) return
         dataByEmoji[emoji] = {
           name: null,
+          slug: null,
           group: currentGroup,
           emoji_version: emojiversion,
           unicode_version: null,
@@ -62,7 +63,7 @@ groupedEmojiData.split('\n').forEach(line => {
 //
 // Returns machine readable emoji short code
 function slugify(str) {
-  return str.replace(/\(.+\)/g, '').trim().replace(/[\W|_]+/g, '_').toLowerCase()
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\(.+\)/g, '').trim().replace(/[\W|_]+/g, '_').toLowerCase()
 }
 
 // U+1F44B ; 6.0 # 👋 waving hand
@@ -85,8 +86,7 @@ orderedEmojiData.split('\n').forEach(line => {
 
   const {groups: {version, emoji, name, desc}} = match
   const isSkinToneVariation = desc && !!desc.match(SKIN_TONE_VARIATION_DESC)
-  const transformedName = slugify(desc && !isSkinToneVariation ? [name, desc].join(' ') : name)
-  const finalName = transformedName
+  const fullName = desc && !isSkinToneVariation ? [name, desc].join(' ') : name
   if (isSkinToneVariation) {
     dataByEmoji[currentEmoji].skin_tone_support = true
     dataByEmoji[currentEmoji].skin_tone_support_unicode_version = version
@@ -100,14 +100,15 @@ orderedEmojiData.split('\n').forEach(line => {
     }
     currentEmoji = emojiWithOptionalVariation16
     orderedEmoji.push(currentEmoji)
-    dataByEmoji[currentEmoji].name = finalName
+    dataByEmoji[currentEmoji].name = fullName
+    dataByEmoji[currentEmoji].slug = slugify(fullName)
     dataByEmoji[currentEmoji].unicode_version = version
     dataByEmoji[currentEmoji].skin_tone_support = false
   }
 })
 
 for (const emoji of orderedEmoji) {
-  const {group, skin_tone_support, skin_tone_support_unicode_version, name, emoji_version, unicode_version} = dataByEmoji[emoji]
+  const {group, skin_tone_support, skin_tone_support_unicode_version, name, slug, emoji_version, unicode_version} = dataByEmoji[emoji]
   const existingGroup = dataByGroup[group]
   if (!existingGroup) dataByGroup[group] = []
   dataByGroup[group].push({
@@ -115,6 +116,7 @@ for (const emoji of orderedEmoji) {
     skin_tone_support,
     skin_tone_support_unicode_version,
     name,
+    slug,
     unicode_version,
     emoji_version
   })
@@ -123,7 +125,8 @@ for (const emoji of orderedEmoji) {
 // {
 //   "😀": {
 //     "group": "Smileys & Emotion",
-//     "name": "grinning_face",
+//     "name": "grinning face",
+//     "slug": "grinning_face",
 //     "version": "6.1",
 //     "skin_tone_support": false
 //   },
@@ -136,7 +139,8 @@ fs.writeFileSync('data-by-emoji.json', JSON.stringify(dataByEmoji, null, 2))
 //     {
 //       "emoji": "😀",
 //       "skin_tone_support": false,
-//       "name": "grinning_face",
+//       "name": "grinning face",
+//       "slug": "grinning_face",
 //       "version": "6.1"
 //     },
 //   ],

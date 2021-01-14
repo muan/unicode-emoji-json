@@ -27,7 +27,8 @@ This means one entry of 👋 represents its 5 variations– 👋🏻, 👋🏼, 
 ```json
 {
   "😀": {
-    "name": "grinning_face",
+    "name": "grinning face",
+    "slug": "grinning_face",
     "group": "Smileys & Emotion",
     "emoji_version": "2.0",
     "unicode_version": "6.1",
@@ -35,7 +36,8 @@ This means one entry of 👋 represents its 5 variations– 👋🏻, 👋🏼, 
   },
   ...
   "👋": {
-    "name": "waving_hand",
+    "name": "waving hand",
+    "slug": "waving_hand",
     "group": "People & Body",
     "emoji_version": "2.0",
     "unicode_version": "6.0",
@@ -53,7 +55,8 @@ This means one entry of 👋 represents its 5 variations– 👋🏻, 👋🏼, 
     {
       "emoji": "😀",
       "skin_tone_support": false,
-      "name": "grinning_face",
+      "name": "grinning face",
+      "slug": "grinning_face",
       "unicode_version": "6.1",
       "emoji_version": "2.0"
     },
