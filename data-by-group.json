@@ -395,7 +395,7 @@
     {
       "emoji": "😵",
       "skin_tone_support": false,
-      "name": "dizzy_face",
+      "name": "knocked_out_face",
       "unicode_version": "0.6",
       "emoji_version": "0.6"
     },
@@ -1515,7 +1515,7 @@
       "emoji": "🧔",
       "skin_tone_support": true,
       "skin_tone_support_unicode_version": "5.0",
-      "name": "man_beard",
+      "name": "person_beard",
       "unicode_version": "5.0",
       "emoji_version": "5.0"
     },
@@ -9089,7 +9089,7 @@
     {
       "emoji": "🔫",
       "skin_tone_support": false,
-      "name": "pistol",
+      "name": "water_pistol",
       "unicode_version": "0.6",
       "emoji_version": "0.6"
     },
@@ -10253,7 +10253,7 @@
     {
       "emoji": "❓",
       "skin_tone_support": false,
-      "name": "question_mark",
+      "name": "red_question_mark",
       "unicode_version": "0.6",
       "emoji_version": "0.6"
     },
@@ -10274,7 +10274,7 @@
     {
       "emoji": "❗",
       "skin_tone_support": false,
-      "name": "exclamation_mark",
+      "name": "red_exclamation_mark",
       "unicode_version": "0.6",
       "emoji_version": "0.6"
     },
