@@ -295,6 +295,14 @@
     "unicode_version": "1.0",
     "skin_tone_support": false
   },
+  "😶‍🌫️": {
+    "name": "face in clouds",
+    "slug": "face_in_clouds",
+    "group": "Smileys & Emotion",
+    "emoji_version": "13.1",
+    "unicode_version": "13.1",
+    "skin_tone_support": false
+  },
   "😏": {
     "name": "smirking face",
     "slug": "smirking_face",
@@ -325,6 +333,14 @@
     "group": "Smileys & Emotion",
     "emoji_version": "1.0",
     "unicode_version": "1.0",
+    "skin_tone_support": false
+  },
+  "😮‍💨": {
+    "name": "face exhaling",
+    "slug": "face_exhaling",
+    "group": "Smileys & Emotion",
+    "emoji_version": "13.1",
+    "unicode_version": "13.1",
     "skin_tone_support": false
   },
   "🤥": {
@@ -453,6 +469,14 @@
     "group": "Smileys & Emotion",
     "emoji_version": "0.6",
     "unicode_version": "0.6",
+    "skin_tone_support": false
+  },
+  "😵‍💫": {
+    "name": "face with spiral eyes",
+    "slug": "face_with_spiral_eyes",
+    "group": "Smileys & Emotion",
+    "emoji_version": "13.1",
+    "unicode_version": "13.1",
     "skin_tone_support": false
   },
   "🤯": {
@@ -1021,6 +1045,22 @@
     "group": "Smileys & Emotion",
     "emoji_version": "0.6",
     "unicode_version": "0.6",
+    "skin_tone_support": false
+  },
+  "❤️‍🔥": {
+    "name": "heart on fire",
+    "slug": "heart_on_fire",
+    "group": "Smileys & Emotion",
+    "emoji_version": "13.1",
+    "unicode_version": "13.1",
+    "skin_tone_support": false
+  },
+  "❤️‍🩹": {
+    "name": "mending heart",
+    "slug": "mending_heart",
+    "group": "Smileys & Emotion",
+    "emoji_version": "13.1",
+    "unicode_version": "13.1",
     "skin_tone_support": false
   },
   "❤️": {
@@ -1725,6 +1765,24 @@
     "unicode_version": "5.0",
     "skin_tone_support": true,
     "skin_tone_support_unicode_version": "5.0"
+  },
+  "🧔‍♂️": {
+    "name": "man beard",
+    "slug": "man_beard",
+    "group": "People & Body",
+    "emoji_version": "13.1",
+    "unicode_version": "13.1",
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "13.1"
+  },
+  "🧔‍♀️": {
+    "name": "woman beard",
+    "slug": "woman_beard",
+    "group": "People & Body",
+    "emoji_version": "13.1",
+    "unicode_version": "13.1",
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "13.1"
   },
   "👨‍🦰": {
     "name": "man red hair",
@@ -3959,7 +4017,8 @@
     "group": "People & Body",
     "emoji_version": "0.6",
     "unicode_version": "0.6",
-    "skin_tone_support": false
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "13.1"
   },
   "👩‍❤️‍💋‍👨": {
     "name": "kiss woman, man",
@@ -3967,7 +4026,8 @@
     "group": "People & Body",
     "emoji_version": "2.0",
     "unicode_version": "2.0",
-    "skin_tone_support": false
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "13.1"
   },
   "👨‍❤️‍💋‍👨": {
     "name": "kiss man, man",
@@ -3975,7 +4035,8 @@
     "group": "People & Body",
     "emoji_version": "2.0",
     "unicode_version": "2.0",
-    "skin_tone_support": false
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "13.1"
   },
   "👩‍❤️‍💋‍👩": {
     "name": "kiss woman, woman",
@@ -3983,7 +4044,8 @@
     "group": "People & Body",
     "emoji_version": "2.0",
     "unicode_version": "2.0",
-    "skin_tone_support": false
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "13.1"
   },
   "💑": {
     "name": "couple with heart",
@@ -3991,7 +4053,8 @@
     "group": "People & Body",
     "emoji_version": "0.6",
     "unicode_version": "0.6",
-    "skin_tone_support": false
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "13.1"
   },
   "👩‍❤️‍👨": {
     "name": "couple with heart woman, man",
@@ -3999,7 +4062,8 @@
     "group": "People & Body",
     "emoji_version": "2.0",
     "unicode_version": "2.0",
-    "skin_tone_support": false
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "13.1"
   },
   "👨‍❤️‍👨": {
     "name": "couple with heart man, man",
@@ -4007,7 +4071,8 @@
     "group": "People & Body",
     "emoji_version": "2.0",
     "unicode_version": "2.0",
-    "skin_tone_support": false
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "13.1"
   },
   "👩‍❤️‍👩": {
     "name": "couple with heart woman, woman",
@@ -4015,7 +4080,8 @@
     "group": "People & Body",
     "emoji_version": "2.0",
     "unicode_version": "2.0",
-    "skin_tone_support": false
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "13.1"
   },
   "👪": {
     "name": "family",
@@ -8570,8 +8636,8 @@
     "skin_tone_support": false
   },
   "🎯": {
-    "name": "direct hit",
-    "slug": "direct_hit",
+    "name": "bullseye",
+    "slug": "bullseye",
     "group": "Activities",
     "emoji_version": "0.6",
     "unicode_version": "0.6",

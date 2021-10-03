@@ -297,6 +297,14 @@
       "emoji_version": "1.0"
     },
     {
+      "emoji": "😶‍🌫️",
+      "skin_tone_support": false,
+      "name": "face in clouds",
+      "slug": "face_in_clouds",
+      "unicode_version": "13.1",
+      "emoji_version": "13.1"
+    },
+    {
       "emoji": "😏",
       "skin_tone_support": false,
       "name": "smirking face",
@@ -327,6 +335,14 @@
       "slug": "grimacing_face",
       "unicode_version": "1.0",
       "emoji_version": "1.0"
+    },
+    {
+      "emoji": "😮‍💨",
+      "skin_tone_support": false,
+      "name": "face exhaling",
+      "slug": "face_exhaling",
+      "unicode_version": "13.1",
+      "emoji_version": "13.1"
     },
     {
       "emoji": "🤥",
@@ -455,6 +471,14 @@
       "slug": "knocked_out_face",
       "unicode_version": "0.6",
       "emoji_version": "0.6"
+    },
+    {
+      "emoji": "😵‍💫",
+      "skin_tone_support": false,
+      "name": "face with spiral eyes",
+      "slug": "face_with_spiral_eyes",
+      "unicode_version": "13.1",
+      "emoji_version": "13.1"
     },
     {
       "emoji": "🤯",
@@ -1023,6 +1047,22 @@
       "slug": "broken_heart",
       "unicode_version": "0.6",
       "emoji_version": "0.6"
+    },
+    {
+      "emoji": "❤️‍🔥",
+      "skin_tone_support": false,
+      "name": "heart on fire",
+      "slug": "heart_on_fire",
+      "unicode_version": "13.1",
+      "emoji_version": "13.1"
+    },
+    {
+      "emoji": "❤️‍🩹",
+      "skin_tone_support": false,
+      "name": "mending heart",
+      "slug": "mending_heart",
+      "unicode_version": "13.1",
+      "emoji_version": "13.1"
     },
     {
       "emoji": "❤️",
@@ -1728,6 +1768,24 @@
       "slug": "person_beard",
       "unicode_version": "5.0",
       "emoji_version": "5.0"
+    },
+    {
+      "emoji": "🧔‍♂️",
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "13.1",
+      "name": "man beard",
+      "slug": "man_beard",
+      "unicode_version": "13.1",
+      "emoji_version": "13.1"
+    },
+    {
+      "emoji": "🧔‍♀️",
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "13.1",
+      "name": "woman beard",
+      "slug": "woman_beard",
+      "unicode_version": "13.1",
+      "emoji_version": "13.1"
     },
     {
       "emoji": "👨‍🦰",
@@ -3958,7 +4016,8 @@
     },
     {
       "emoji": "💏",
-      "skin_tone_support": false,
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "13.1",
       "name": "kiss",
       "slug": "kiss",
       "unicode_version": "0.6",
@@ -3966,7 +4025,8 @@
     },
     {
       "emoji": "👩‍❤️‍💋‍👨",
-      "skin_tone_support": false,
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "13.1",
       "name": "kiss woman, man",
       "slug": "kiss_woman_man",
       "unicode_version": "2.0",
@@ -3974,7 +4034,8 @@
     },
     {
       "emoji": "👨‍❤️‍💋‍👨",
-      "skin_tone_support": false,
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "13.1",
       "name": "kiss man, man",
       "slug": "kiss_man_man",
       "unicode_version": "2.0",
@@ -3982,7 +4043,8 @@
     },
     {
       "emoji": "👩‍❤️‍💋‍👩",
-      "skin_tone_support": false,
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "13.1",
       "name": "kiss woman, woman",
       "slug": "kiss_woman_woman",
       "unicode_version": "2.0",
@@ -3990,7 +4052,8 @@
     },
     {
       "emoji": "💑",
-      "skin_tone_support": false,
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "13.1",
       "name": "couple with heart",
       "slug": "couple_with_heart",
       "unicode_version": "0.6",
@@ -3998,7 +4061,8 @@
     },
     {
       "emoji": "👩‍❤️‍👨",
-      "skin_tone_support": false,
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "13.1",
       "name": "couple with heart woman, man",
       "slug": "couple_with_heart_woman_man",
       "unicode_version": "2.0",
@@ -4006,7 +4070,8 @@
     },
     {
       "emoji": "👨‍❤️‍👨",
-      "skin_tone_support": false,
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "13.1",
       "name": "couple with heart man, man",
       "slug": "couple_with_heart_man_man",
       "unicode_version": "2.0",
@@ -4014,7 +4079,8 @@
     },
     {
       "emoji": "👩‍❤️‍👩",
-      "skin_tone_support": false,
+      "skin_tone_support": true,
+      "skin_tone_support_unicode_version": "13.1",
       "name": "couple with heart woman, woman",
       "slug": "couple_with_heart_woman_woman",
       "unicode_version": "2.0",
@@ -8583,8 +8649,8 @@
     {
       "emoji": "🎯",
       "skin_tone_support": false,
-      "name": "direct hit",
-      "slug": "direct_hit",
+      "name": "bullseye",
+      "slug": "bullseye",
       "unicode_version": "0.6",
       "emoji_version": "0.6"
     },
