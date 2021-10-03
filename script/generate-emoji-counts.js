@@ -8,7 +8,7 @@ const theadCells = allRows[0].childNodes
 const totalCells = allRows[allRows.length - 1].childNodes
 
 const stats = {
-  dual_skin_tone_support: 12, // This needs to be found manually
+  dual_skin_tone_support: 13, // This needs to be found manually
   total: null,
   skin_tone_variations: null,
   component: null,
