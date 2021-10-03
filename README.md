@@ -99,6 +99,8 @@ This means one entry of 👋 represents its 5 variations– 👋🏻, 👋🏼, 
 
   Run test that ensures the build data matches the count of emoji parsed from the data source.
 
+  A common People's category test failure after an Emoji version upgrade might be that [there are new dual skin tone emoji unaccounted for](https://github.com/muan/unicode-emoji-json/blob/fc40d2e86da1c0ba8a672176f85e4363cd0dadd9/script/generate-emoji-counts.js#L11). Verify this by reading through the change log and see if there are any emoji that can be modified with two skin tone modifiers and add them to `generate-emoji-counts.js` then run `npm run build` which will update `stats.json`; then run the test again. This isn't automated currently. [See #3](https://github.com/muan/unicode-emoji-json/issues/3).
+
 ## Unicode License Agreement
 
 https://www.unicode.org/license.html
