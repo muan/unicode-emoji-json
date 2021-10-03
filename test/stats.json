@@ -1,11 +1,11 @@
 {
   "dual_skin_tone_support": 4,
-  "total": 3304,
-  "skin_tone_variations": 1490,
+  "total": 3521,
+  "skin_tone_variations": 1700,
   "component": 9,
   "groups": {
-    "Smileys & Emotion": 151,
-    "People & Body": 1837,
+    "Smileys & Emotion": 156,
+    "People & Body": 2049,
     "Animals & Nature": 140,
     "Food & Drink": 129,
     "Travel & Places": 215,
@@ -14,5 +14,5 @@
     "Symbols": 220,
     "Flags": 269
   },
-  "total_without_skin_tone_variations": 1805
+  "total_without_skin_tone_variations": 1812
 }
