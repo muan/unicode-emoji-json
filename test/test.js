@@ -1,6 +1,7 @@
 const fs = require('fs')
 const test = require('tape')
 const stats = require('./stats.json')
+const data = require("../data-by-group.json");
 
 const OUTPUT_FILES = [
   'data-by-emoji.json',
@@ -29,18 +30,22 @@ test('data-by-emoji.json', function(t) {
 
 test('data-by-group.json', function(t) {
   const data = require('../data-by-group.json')
+  const testGroup = 'People & Body';
   for (const groupName in stats.groups) {
-    if (groupName === 'People & Body') {
+    const groupIndex = data.findIndex((element) => element.name === groupName)
+    t.notEqual(groupIndex, -1, `Unable to find the ${groupName} group.`)
+    if (groupIndex === -1) continue;
+    if (groupName === testGroup) {
       // Ensure emoji count adds up to expected number of variations
       //
       // Each of these has 1 + 5 more skin tone variation sequences
-      const emojiWithSkinToneSupport = data[groupName].filter(entry => entry.skin_tone_support).length
+      const emojiWithSkinToneSupport = data[groupIndex].emojis.filter(entry => entry.skin_tone_support).length
       // Each of these has 1 + 5 * 5 more skin tone variation sequences
       const dualSkinToneSupport = stats.dual_skin_tone_support
-      const countWithSkinVariation = data[groupName].length + (emojiWithSkinToneSupport - dualSkinToneSupport) * 5 + dualSkinToneSupport * 5 * 5
+      const countWithSkinVariation = data[groupIndex].emojis.length + (emojiWithSkinToneSupport - dualSkinToneSupport) * 5 + dualSkinToneSupport * 5 * 5
       t.equal(countWithSkinVariation, stats.groups[groupName], `Correct number of ${groupName} emoji.`)
     } else {
-      t.equal(data[groupName].length, stats.groups[groupName], `Correct number of ${groupName} emoji.`)
+      t.equal(data[groupIndex].emojis.length, stats.groups[groupName], `Correct number of ${groupName} emoji.`)
     }
   }
   t.end()
