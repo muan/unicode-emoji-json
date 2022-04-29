@@ -7,7 +7,7 @@ const SKIN_TONE_VARIATION_DESC = /\sskin\stone(?:,|$)/
 // Final data holder
 const orderedEmoji = []
 const dataByEmoji = {}
-const dataByGroup = {}
+const dataByGroup = []
 const emojiComponents = {}
 
 // The group data tells if the emoji is one of the following:
@@ -109,9 +109,12 @@ orderedEmojiData.split('\n').forEach(line => {
 
 for (const emoji of orderedEmoji) {
   const {group, skin_tone_support, skin_tone_support_unicode_version, name, slug, emoji_version, unicode_version} = dataByEmoji[emoji]
-  const existingGroup = dataByGroup[group]
-  if (!existingGroup) dataByGroup[group] = []
-  dataByGroup[group].push({
+  let groupIndex = dataByGroup.findIndex((element) => element.name === group)
+  if (groupIndex === - 1) {
+    dataByGroup.push({ name: group, slug: slugify(group), emojis: [] })
+    groupIndex = dataByGroup.findIndex((element) => element.name === group)
+  }
+  dataByGroup[groupIndex].emojis.push({
     emoji,
     skin_tone_support,
     skin_tone_support_unicode_version,
