@@ -1,6 +1,8 @@
 # Unicode Emoji JSON [![Test status](https://github.com/muan/unicode-emoji-json/workflows/Node%20CI/badge.svg)](https://github.com/muan/unicode-emoji-json/actions?query=workflow%3A%22Node+CI%22)
 
-The primary objective of this library is to provide a up-to-date version of emoji data from Unicode in JSON format, in a number of easily consumable file structures.
+This library provides a up-to-date version of emoji data from Unicode in JSON format, in a number of easily consumable file structures.
+
+Check out [`muan/emojilib`](https://github.com/muan/emojilib) for emoji keyword pairings for extended searchability.
 
 ## Details
 
