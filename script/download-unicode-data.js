@@ -19,7 +19,7 @@ const files = {
 for (const name of Object.keys(files)) {
   const file = fs.createWriteStream(name)
 
-  const request = https.get(files[name], function(response) {
+  https.get(files[name], function(response) {
     response.pipe(file)
   })
 }
