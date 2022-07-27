@@ -1,18 +1,18 @@
 {
   "dual_skin_tone_support": 13,
-  "total": 3633,
-  "skin_tone_variations": 1775,
+  "total": 3664,
+  "skin_tone_variations": 1785,
   "component": 9,
   "groups": {
-    "Smileys & Emotion": 163,
-    "People & Body": 2136,
-    "Animals & Nature": 144,
-    "Food & Drink": 132,
+    "Smileys & Emotion": 166,
+    "People & Body": 2148,
+    "Animals & Nature": 152,
+    "Food & Drink": 133,
     "Travel & Places": 218,
-    "Activities": 86,
-    "Objects": 255,
-    "Symbols": 221,
+    "Activities": 85,
+    "Objects": 261,
+    "Symbols": 223,
     "Flags": 269
   },
-  "total_without_skin_tone_variations": 1849
+  "total_without_skin_tone_variations": 1870
 }
