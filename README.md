@@ -89,15 +89,19 @@ This means one entry of 👋 represents its 5 variations– 👋🏻, 👋🏼, 
 
 ## Development
 
-1. `npm run download`
+1. `npm install`
+
+  Install dependencies.
+
+2. `npm run download`
 
   Download the latest data dump from unicode.org. Update the version variable in this file when a new version is available. Experiment with a version by passing an argument for version number: `npm run download 13.0`.
 
-2. `npm run build`
+3. `npm run build`
 
   Parse and format the downloaded data into different files for distribution. This script also generates `stats.json` for use in test. Update the parser if the content format from unicode data has changed.
 
-3. `npm test`
+4. `npm test`
 
   Run test that ensures the build data matches the count of emoji parsed from the data source.
 
