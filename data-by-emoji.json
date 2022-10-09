@@ -12256,7 +12256,7 @@
   },
   "#️⃣": {
     "name": "keycap #",
-    "slug": "keycap_",
+    "slug": "keycap_number_sign",
     "group": "Symbols",
     "emoji_version": "0.6",
     "unicode_version": "0.6",
@@ -12264,7 +12264,7 @@
   },
   "*️⃣": {
     "name": "keycap *",
-    "slug": "keycap_",
+    "slug": "keycap_asterix",
     "group": "Symbols",
     "emoji_version": "2.0",
     "unicode_version": "2.0",

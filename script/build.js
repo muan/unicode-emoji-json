@@ -56,6 +56,7 @@ groupedEmojiData.split('\n').forEach(line => {
   }
 })
 
+
 // 'flag: St. Kitts & Nevis' -> 'flag_st_kitts_nevis'
 // 'family: woman, woman, boy, boy' -> 'family_woman_woman_boy_boy'
 // 'A button (blood type)' -> 'a_button'
@@ -63,7 +64,27 @@ groupedEmojiData.split('\n').forEach(line => {
 //
 // Returns machine readable emoji short code
 function slugify(str) {
-  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\(.+\)/g, '').trim().replace(/[\W|_]+/g, '_').toLowerCase()
+
+  // Helpers for slugify
+  const SLUGIFY_REPLACEMENT = new Map([
+    ["*", "asterix"],
+    ["#", "number sign"]
+  ])
+  
+  const charsToReplace = Array.from(SLUGIFY_REPLACEMENT.keys()).map(x => escapeRegExp(x)).join("|")
+  const regexSlugify = new RegExp(`([${escapeRegExp(charsToReplace)}])`, 'g')
+
+  function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function replacer(match, p1, offset, string) {
+    return SLUGIFY_REPLACEMENT.has(p1) ? SLUGIFY_REPLACEMENT.get(p1) : p1;
+  }
+
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\(.+\)/g, '').trim()
+  .replace(regexSlugify, replacer)
+  .replace(/[\W|_]+/g, '_').toLowerCase()
 }
 
 // U+1F44B ; 6.0 # 👋 waving hand
