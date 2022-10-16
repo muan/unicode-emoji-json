@@ -1,6 +1,8 @@
 # Unicode Emoji JSON [![Test status](https://github.com/muan/unicode-emoji-json/workflows/Node%20CI/badge.svg)](https://github.com/muan/unicode-emoji-json/actions?query=workflow%3A%22Node+CI%22)
 
-The primary objective of this library is to provide a up-to-date version of emoji data from Unicode in JSON format, in a number of easily consumable file structures.
+This library provides a up-to-date version of emoji data from Unicode in JSON format, in a number of easily consumable file structures.
+
+Check out [`muan/emojilib`](https://github.com/muan/emojilib) for emoji keyword pairings for extended searchability.
 
 ## Details
 
@@ -87,15 +89,19 @@ This means one entry of 👋 represents its 5 variations– 👋🏻, 👋🏼, 
 
 ## Development
 
-1. `npm run download`
+1. `npm install`
+
+  Install dependencies.
+
+2. `npm run download`
 
   Download the latest data dump from unicode.org. Update the version variable in this file when a new version is available. Experiment with a version by passing an argument for version number: `npm run download 13.0`.
 
-2. `npm run build`
+3. `npm run build`
 
   Parse and format the downloaded data into different files for distribution. This script also generates `stats.json` for use in test. Update the parser if the content format from unicode data has changed.
 
-3. `npm test`
+4. `npm test`
 
   Run test that ensures the build data matches the count of emoji parsed from the data source.
 

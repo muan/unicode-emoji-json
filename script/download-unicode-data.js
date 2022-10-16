@@ -1,4 +1,4 @@
-let version = '14.0'
+let version = '15.0'
 
 // npm run download 13.0
 if (process.argv[2]) {
@@ -19,7 +19,7 @@ const files = {
 for (const name of Object.keys(files)) {
   const file = fs.createWriteStream(name)
 
-  const request = https.get(files[name], function(response) {
+  https.get(files[name], function(response) {
     response.pipe(file)
   })
 }
