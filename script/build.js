@@ -61,30 +61,24 @@ groupedEmojiData.split('\n').forEach(line => {
 // 'family: woman, woman, boy, boy' -> 'family_woman_woman_boy_boy'
 // 'A button (blood type)' -> 'a_button'
 // 'Cocos (Keeling) Islands' -> 'cocos_islands'
+// 'keycap *' -> 'keycap_asterisk'
 //
 // Returns machine readable emoji short code
 function slugify(str) {
-
-  // Helpers for slugify
-  const SLUGIFY_REPLACEMENT = new Map([
-    ["*", "asterix"],
-    ["#", "number sign"]
-  ])
-  
-  const charsToReplace = Array.from(SLUGIFY_REPLACEMENT.keys()).map(x => escapeRegExp(x)).join("|")
-  const regexSlugify = new RegExp(`([${escapeRegExp(charsToReplace)}])`, 'g')
-
-  function escapeRegExp(string) {
-    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const SLUGIFY_REPLACEMENT = {
+    "*": "asterisk",
+    "#": "number sign"
   }
 
-  function replacer(match, p1, offset, string) {
-    return SLUGIFY_REPLACEMENT.has(p1) ? SLUGIFY_REPLACEMENT.get(p1) : p1;
+  for (key in SLUGIFY_REPLACEMENT) {
+    str = str.replace(key, SLUGIFY_REPLACEMENT[key])
   }
 
-  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\(.+\)/g, '').trim()
-  .replace(regexSlugify, replacer)
-  .replace(/[\W|_]+/g, '_').toLowerCase()
+  return str.normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\(.+\)/g, '')
+    .trim()
+    .replace(/[\W|_]+/g, '_').toLowerCase()
 }
 
 // U+1F44B ; 6.0 # 👋 waving hand
