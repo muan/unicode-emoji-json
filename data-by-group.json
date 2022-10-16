@@ -1327,14 +1327,6 @@
       "slug": "zzz",
       "unicode_version": "0.6",
       "emoji_version": "0.6"
-    },
-    {
-      "emoji": "💣",
-      "skin_tone_support": false,
-      "name": "bomb",
-      "slug": "bomb",
-      "unicode_version": "0.6",
-      "emoji_version": "0.6"
     }
   ],
   "People & Body": [
@@ -5756,9 +5748,7 @@
       "slug": "nest_with_eggs",
       "unicode_version": "14.0",
       "emoji_version": "14.0"
-    }
-  ],
-  "Food & Drink": [
+    },
     {
       "emoji": "🍄",
       "skin_tone_support": false,
@@ -5766,7 +5756,9 @@
       "slug": "mushroom",
       "unicode_version": "0.6",
       "emoji_version": "0.6"
-    },
+    }
+  ],
+  "Food & Drink": [
     {
       "emoji": "🍇",
       "skin_tone_support": false,
@@ -9036,6 +9028,14 @@
       "emoji_version": "12.0"
     },
     {
+      "emoji": "🔫",
+      "skin_tone_support": false,
+      "name": "water pistol",
+      "slug": "water_pistol",
+      "unicode_version": "0.6",
+      "emoji_version": "0.6"
+    },
+    {
       "emoji": "🎱",
       "skin_tone_support": false,
       "name": "pool 8 ball",
@@ -9250,33 +9250,9 @@
       "slug": "knot",
       "unicode_version": "13.0",
       "emoji_version": "13.0"
-    },
-    {
-      "emoji": "🧿",
-      "skin_tone_support": false,
-      "name": "nazar amulet",
-      "slug": "nazar_amulet",
-      "unicode_version": "11.0",
-      "emoji_version": "11.0"
-    },
-    {
-      "emoji": "🪬",
-      "skin_tone_support": false,
-      "name": "hamsa",
-      "slug": "hamsa",
-      "unicode_version": "14.0",
-      "emoji_version": "14.0"
     }
   ],
   "Objects": [
-    {
-      "emoji": "🔫",
-      "skin_tone_support": false,
-      "name": "water pistol",
-      "slug": "water_pistol",
-      "unicode_version": "0.6",
-      "emoji_version": "0.6"
-    },
     {
       "emoji": "👓",
       "skin_tone_support": false,
@@ -10838,6 +10814,14 @@
       "emoji_version": "1.0"
     },
     {
+      "emoji": "💣",
+      "skin_tone_support": false,
+      "name": "bomb",
+      "slug": "bomb",
+      "unicode_version": "0.6",
+      "emoji_version": "0.6"
+    },
+    {
       "emoji": "🪃",
       "skin_tone_support": false,
       "name": "boomerang",
@@ -11316,6 +11300,22 @@
       "slug": "funeral_urn",
       "unicode_version": "1.0",
       "emoji_version": "1.0"
+    },
+    {
+      "emoji": "🧿",
+      "skin_tone_support": false,
+      "name": "nazar amulet",
+      "slug": "nazar_amulet",
+      "unicode_version": "11.0",
+      "emoji_version": "11.0"
+    },
+    {
+      "emoji": "🪬",
+      "skin_tone_support": false,
+      "name": "hamsa",
+      "slug": "hamsa",
+      "unicode_version": "14.0",
+      "emoji_version": "14.0"
     },
     {
       "emoji": "🗿",
