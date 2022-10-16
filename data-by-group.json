@@ -12443,7 +12443,7 @@
       "emoji": "#️⃣",
       "skin_tone_support": false,
       "name": "keycap #",
-      "slug": "keycap_",
+      "slug": "keycap_number_sign",
       "unicode_version": "0.6",
       "emoji_version": "0.6"
     },
@@ -12451,7 +12451,7 @@
       "emoji": "*️⃣",
       "skin_tone_support": false,
       "name": "keycap *",
-      "slug": "keycap_",
+      "slug": "keycap_asterisk",
       "unicode_version": "2.0",
       "emoji_version": "2.0"
     },
