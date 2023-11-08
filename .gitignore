@@ -1,4 +1,5 @@
-node_modules
+.idea/
+node_modules/
 emoji-group.txt
 emoji-order.txt
 emoji-counts.html
