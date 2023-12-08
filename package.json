@@ -3,6 +3,7 @@
   "version": "0.5.0",
   "description": "Emoji data from unicode.org as easily consumable JSON files.",
   "main": "data-by-emoji.json",
+  "types": "index.d.ts",
   "files": [
     "data-by-emoji.json",
     "data-by-group.json",
