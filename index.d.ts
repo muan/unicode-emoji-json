@@ -1,4 +1,4 @@
-declare const unicodeEmojiJson: Record<
+declare const dataByEmoji: Record<
   string,
   {
     name: string;
@@ -6,8 +6,8 @@ declare const unicodeEmojiJson: Record<
     group: string;
     emoji_version: string;
     unicode_version: string;
-    skin_tone_support: string;
+    skin_tone_support: boolean;
   }
 >;
 
-export default unicodeEmojiJson;
+export default dataByEmoji;
