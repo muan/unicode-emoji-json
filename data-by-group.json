@@ -460,6 +460,14 @@
         "emoji_version": "1.0"
       },
       {
+        "emoji": "🫩",
+        "skin_tone_support": false,
+        "name": "face with bags under eyes",
+        "slug": "face_with_bags_under_eyes",
+        "unicode_version": "16.0",
+        "emoji_version": "16.0"
+      },
+      {
         "emoji": "😷",
         "skin_tone_support": false,
         "name": "face with medical mask",
@@ -3181,7 +3189,7 @@
         "emoji": "🧑‍🎄",
         "skin_tone_support": true,
         "skin_tone_support_unicode_version": "13.0",
-        "name": "mx claus",
+        "name": "Mx Claus",
         "slug": "mx_claus",
         "unicode_version": "13.0",
         "emoji_version": "13.0"
@@ -4755,6 +4763,14 @@
         "slug": "footprints",
         "unicode_version": "0.6",
         "emoji_version": "0.6"
+      },
+      {
+        "emoji": "🫆",
+        "skin_tone_support": false,
+        "name": "fingerprint",
+        "slug": "fingerprint",
+        "unicode_version": "16.0",
+        "emoji_version": "16.0"
       }
     ]
   },
@@ -5635,6 +5651,46 @@
         "emoji_version": "15.0"
       },
       {
+        "emoji": "🦀",
+        "skin_tone_support": false,
+        "name": "crab",
+        "slug": "crab",
+        "unicode_version": "1.0",
+        "emoji_version": "1.0"
+      },
+      {
+        "emoji": "🦞",
+        "skin_tone_support": false,
+        "name": "lobster",
+        "slug": "lobster",
+        "unicode_version": "11.0",
+        "emoji_version": "11.0"
+      },
+      {
+        "emoji": "🦐",
+        "skin_tone_support": false,
+        "name": "shrimp",
+        "slug": "shrimp",
+        "unicode_version": "3.0",
+        "emoji_version": "3.0"
+      },
+      {
+        "emoji": "🦑",
+        "skin_tone_support": false,
+        "name": "squid",
+        "slug": "squid",
+        "unicode_version": "3.0",
+        "emoji_version": "3.0"
+      },
+      {
+        "emoji": "🦪",
+        "skin_tone_support": false,
+        "name": "oyster",
+        "slug": "oyster",
+        "unicode_version": "12.0",
+        "emoji_version": "12.0"
+      },
+      {
         "emoji": "🐌",
         "skin_tone_support": false,
         "name": "snail",
@@ -5985,6 +6041,14 @@
         "slug": "mushroom",
         "unicode_version": "0.6",
         "emoji_version": "0.6"
+      },
+      {
+        "emoji": "🪾",
+        "skin_tone_support": false,
+        "name": "leafless tree",
+        "slug": "leafless_tree",
+        "unicode_version": "16.0",
+        "emoji_version": "16.0"
       }
     ]
   },
@@ -6295,6 +6359,14 @@
         "slug": "brown_mushroom",
         "unicode_version": "15.1",
         "emoji_version": "15.1"
+      },
+      {
+        "emoji": "🫜",
+        "skin_tone_support": false,
+        "name": "root vegetable",
+        "slug": "root_vegetable",
+        "unicode_version": "16.0",
+        "emoji_version": "16.0"
       },
       {
         "emoji": "🍞",
@@ -6703,46 +6775,6 @@
         "slug": "takeout_box",
         "unicode_version": "5.0",
         "emoji_version": "5.0"
-      },
-      {
-        "emoji": "🦀",
-        "skin_tone_support": false,
-        "name": "crab",
-        "slug": "crab",
-        "unicode_version": "1.0",
-        "emoji_version": "1.0"
-      },
-      {
-        "emoji": "🦞",
-        "skin_tone_support": false,
-        "name": "lobster",
-        "slug": "lobster",
-        "unicode_version": "11.0",
-        "emoji_version": "11.0"
-      },
-      {
-        "emoji": "🦐",
-        "skin_tone_support": false,
-        "name": "shrimp",
-        "slug": "shrimp",
-        "unicode_version": "3.0",
-        "emoji_version": "3.0"
-      },
-      {
-        "emoji": "🦑",
-        "skin_tone_support": false,
-        "name": "squid",
-        "slug": "squid",
-        "unicode_version": "3.0",
-        "emoji_version": "3.0"
-      },
-      {
-        "emoji": "🦪",
-        "skin_tone_support": false,
-        "name": "oyster",
-        "slug": "oyster",
-        "unicode_version": "12.0",
-        "emoji_version": "12.0"
       },
       {
         "emoji": "🍦",
@@ -10123,6 +10155,14 @@
         "emoji_version": "15.0"
       },
       {
+        "emoji": "🪉",
+        "skin_tone_support": false,
+        "name": "harp",
+        "slug": "harp",
+        "unicode_version": "16.0",
+        "emoji_version": "16.0"
+      },
+      {
         "emoji": "📱",
         "skin_tone_support": false,
         "name": "mobile phone",
@@ -11225,6 +11265,14 @@
         "slug": "ladder",
         "unicode_version": "13.0",
         "emoji_version": "13.0"
+      },
+      {
+        "emoji": "🪏",
+        "skin_tone_support": false,
+        "name": "shovel",
+        "slug": "shovel",
+        "unicode_version": "16.0",
+        "emoji_version": "16.0"
       },
       {
         "emoji": "⚗️",
@@ -12713,6 +12761,14 @@
         "emoji_version": "0.6"
       },
       {
+        "emoji": "🫟",
+        "skin_tone_support": false,
+        "name": "splatter",
+        "slug": "splatter",
+        "unicode_version": "16.0",
+        "emoji_version": "16.0"
+      },
+      {
         "emoji": "#️⃣",
         "skin_tone_support": false,
         "name": "keycap #",
@@ -13877,6 +13933,14 @@
         "slug": "flag_clipperton_island",
         "unicode_version": "2.0",
         "emoji_version": "2.0"
+      },
+      {
+        "emoji": "🇨🇶",
+        "skin_tone_support": false,
+        "name": "flag Sark",
+        "slug": "flag_sark",
+        "unicode_version": "16.0",
+        "emoji_version": "16.0"
       },
       {
         "emoji": "🇨🇷",
