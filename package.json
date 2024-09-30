@@ -1,6 +1,6 @@
 {
   "name": "unicode-emoji-json",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Emoji data from unicode.org as easily consumable JSON files.",
   "main": "data-by-emoji.json",
   "types": "index.d.ts",
