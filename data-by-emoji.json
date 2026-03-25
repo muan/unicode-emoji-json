@@ -679,6 +679,14 @@
     "unicode_version": "0.6",
     "skin_tone_support": false
   },
+  "🫪": {
+    "name": "distorted face",
+    "slug": "distorted_face",
+    "group": "Smileys & Emotion",
+    "emoji_version": "17.0",
+    "unicode_version": "17.0",
+    "skin_tone_support": false
+  },
   "🥺": {
     "name": "pleading face",
     "slug": "pleading_face",
@@ -1261,6 +1269,14 @@
     "group": "Smileys & Emotion",
     "emoji_version": "0.6",
     "unicode_version": "0.6",
+    "skin_tone_support": false
+  },
+  "🫯": {
+    "name": "fight cloud",
+    "slug": "fight_cloud",
+    "group": "Smileys & Emotion",
+    "emoji_version": "17.0",
+    "unicode_version": "17.0",
     "skin_tone_support": false
   },
   "💥": {
@@ -3429,6 +3445,14 @@
     "unicode_version": "14.0",
     "skin_tone_support": false
   },
+  "🫈": {
+    "name": "hairy creature",
+    "slug": "hairy_creature",
+    "group": "People & Body",
+    "emoji_version": "17.0",
+    "unicode_version": "17.0",
+    "skin_tone_support": false
+  },
   "💆": {
     "name": "person getting massage",
     "slug": "person_getting_massage",
@@ -3834,6 +3858,15 @@
     "skin_tone_support": true,
     "skin_tone_support_unicode_version": "15.1"
   },
+  "🧑‍🩰": {
+    "name": "ballet dancer",
+    "slug": "ballet_dancer",
+    "group": "People & Body",
+    "emoji_version": "17.0",
+    "unicode_version": "17.0",
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "17.0"
+  },
   "💃": {
     "name": "woman dancing",
     "slug": "woman_dancing",
@@ -3867,7 +3900,8 @@
     "group": "People & Body",
     "emoji_version": "0.6",
     "unicode_version": "0.6",
-    "skin_tone_support": false
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "17.0"
   },
   "👯‍♂️": {
     "name": "men with bunny ears",
@@ -3875,7 +3909,8 @@
     "group": "People & Body",
     "emoji_version": "4.0",
     "unicode_version": "4.0",
-    "skin_tone_support": false
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "17.0"
   },
   "👯‍♀️": {
     "name": "women with bunny ears",
@@ -3883,7 +3918,8 @@
     "group": "People & Body",
     "emoji_version": "4.0",
     "unicode_version": "4.0",
-    "skin_tone_support": false
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "17.0"
   },
   "🧖": {
     "name": "person in steamy room",
@@ -4222,7 +4258,8 @@
     "group": "People & Body",
     "emoji_version": "3.0",
     "unicode_version": "3.0",
-    "skin_tone_support": false
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "17.0"
   },
   "🤼‍♂️": {
     "name": "men wrestling",
@@ -4230,7 +4267,8 @@
     "group": "People & Body",
     "emoji_version": "4.0",
     "unicode_version": "4.0",
-    "skin_tone_support": false
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "17.0"
   },
   "🤼‍♀️": {
     "name": "women wrestling",
@@ -4238,7 +4276,8 @@
     "group": "People & Body",
     "emoji_version": "4.0",
     "unicode_version": "4.0",
-    "skin_tone_support": false
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "17.0"
   },
   "🤽": {
     "name": "person playing water polo",
@@ -5560,6 +5599,14 @@
     "group": "Animals & Nature",
     "emoji_version": "0.6",
     "unicode_version": "0.6",
+    "skin_tone_support": false
+  },
+  "🫍": {
+    "name": "orca",
+    "slug": "orca",
+    "group": "Animals & Nature",
+    "emoji_version": "17.0",
+    "unicode_version": "17.0",
     "skin_tone_support": false
   },
   "🦭": {
@@ -7152,6 +7199,14 @@
     "group": "Travel & Places",
     "emoji_version": "0.7",
     "unicode_version": "0.7",
+    "skin_tone_support": false
+  },
+  "🛘": {
+    "name": "landslide",
+    "slug": "landslide",
+    "group": "Travel & Places",
+    "emoji_version": "17.0",
+    "unicode_version": "17.0",
     "skin_tone_support": false
   },
   "🌋": {
@@ -10034,6 +10089,22 @@
     "unicode_version": "0.6",
     "skin_tone_support": false
   },
+  "🎺": {
+    "name": "trumpet",
+    "slug": "trumpet",
+    "group": "Objects",
+    "emoji_version": "0.6",
+    "unicode_version": "0.6",
+    "skin_tone_support": false
+  },
+  "🪊": {
+    "name": "trombone",
+    "slug": "trombone",
+    "group": "Objects",
+    "emoji_version": "17.0",
+    "unicode_version": "17.0",
+    "skin_tone_support": false
+  },
   "🪗": {
     "name": "accordion",
     "slug": "accordion",
@@ -10053,14 +10124,6 @@
   "🎹": {
     "name": "musical keyboard",
     "slug": "musical_keyboard",
-    "group": "Objects",
-    "emoji_version": "0.6",
-    "unicode_version": "0.6",
-    "skin_tone_support": false
-  },
-  "🎺": {
-    "name": "trumpet",
-    "slug": "trumpet",
     "group": "Objects",
     "emoji_version": "0.6",
     "unicode_version": "0.6",
@@ -10546,6 +10609,14 @@
     "unicode_version": "0.7",
     "skin_tone_support": false
   },
+  "🪙": {
+    "name": "coin",
+    "slug": "coin",
+    "group": "Objects",
+    "emoji_version": "13.0",
+    "unicode_version": "13.0",
+    "skin_tone_support": false
+  },
   "💰": {
     "name": "money bag",
     "slug": "money_bag",
@@ -10554,12 +10625,12 @@
     "unicode_version": "0.6",
     "skin_tone_support": false
   },
-  "🪙": {
-    "name": "coin",
-    "slug": "coin",
+  "🪎": {
+    "name": "treasure chest",
+    "slug": "treasure_chest",
     "group": "Objects",
-    "emoji_version": "13.0",
-    "unicode_version": "13.0",
+    "emoji_version": "17.0",
+    "unicode_version": "17.0",
     "skin_tone_support": false
   },
   "💴": {

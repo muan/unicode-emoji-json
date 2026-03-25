@@ -1,4 +1,4 @@
-let version = '15.1'
+let version = '17.0';
 
 // npm run download 13.0
 if (process.argv[2]) {
@@ -10,8 +10,8 @@ const https = require('https')
 const files = {
   // Complete emoji list with version
   'emoji-order.txt': `https://unicode.org/emoji/charts-${version}/emoji-ordering.txt`,
-  // Grouped emoji list with qualifier
-  'emoji-group.txt': `https://unicode.org/Public/emoji/${version}/emoji-test.txt`,
+  // Grouped emoji list with qualifier (URL changed with 17.0.0)
+  'emoji-group.txt': `https://unicode.org/Public/${version}.0/emoji/emoji-test.txt`,
   // Emoji count
   'emoji-counts.html': `https://unicode.org/emoji/charts-${version}/emoji-counts.html`
 }
