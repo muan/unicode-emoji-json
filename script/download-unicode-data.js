@@ -1,4 +1,4 @@
-let version = '17.0'
+let version = '18.0'
 let maybeSubVersion = '0'
 
 // npm run download 13.0

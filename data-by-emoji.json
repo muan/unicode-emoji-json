@@ -87,6 +87,14 @@
     "unicode_version": "14.0",
     "skin_tone_support": false
   },
+  "🫫": {
+    "name": "cracking face",
+    "slug": "cracking_face",
+    "group": "Smileys & Emotion",
+    "emoji_version": "18.0",
+    "unicode_version": "18.0",
+    "skin_tone_support": false
+  },
   "😉": {
     "name": "winking face",
     "slug": "winking_face",
@@ -1627,6 +1635,24 @@
     "unicode_version": "0.6",
     "skin_tone_support": true,
     "skin_tone_support_unicode_version": "1.0"
+  },
+  "🫹": {
+    "name": "leftwards thumb sign",
+    "slug": "leftwards_thumb_sign",
+    "group": "People & Body",
+    "emoji_version": "18.0",
+    "unicode_version": "18.0",
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "18.0"
+  },
+  "🫺": {
+    "name": "rightwards thumb sign",
+    "slug": "rightwards_thumb_sign",
+    "group": "People & Body",
+    "emoji_version": "18.0",
+    "unicode_version": "18.0",
+    "skin_tone_support": true,
+    "skin_tone_support_unicode_version": "18.0"
   },
   "✊": {
     "name": "raised fist",
@@ -5737,6 +5763,14 @@
     "unicode_version": "3.0",
     "skin_tone_support": false
   },
+  "🫌": {
+    "name": "monarch butterfly",
+    "slug": "monarch_butterfly",
+    "group": "Animals & Nature",
+    "emoji_version": "18.0",
+    "unicode_version": "18.0",
+    "skin_tone_support": false
+  },
   "🐛": {
     "name": "bug",
     "slug": "bug",
@@ -6303,6 +6337,14 @@
     "group": "Food & Drink",
     "emoji_version": "3.0",
     "unicode_version": "3.0",
+    "skin_tone_support": false
+  },
+  "🫝": {
+    "name": "pickle",
+    "slug": "pickle",
+    "group": "Food & Drink",
+    "emoji_version": "18.0",
+    "unicode_version": "18.0",
     "skin_tone_support": false
   },
   "🥬": {
@@ -8065,6 +8107,14 @@
     "unicode_version": "0.6",
     "skin_tone_support": false
   },
+  "🛙": {
+    "name": "lighthouse",
+    "slug": "lighthouse",
+    "group": "Travel & Places",
+    "emoji_version": "18.0",
+    "unicode_version": "18.0",
+    "skin_tone_support": false
+  },
   "⚓": {
     "name": "anchor",
     "slug": "anchor",
@@ -8855,6 +8905,14 @@
     "group": "Travel & Places",
     "emoji_version": "1.0",
     "unicode_version": "1.0",
+    "skin_tone_support": false
+  },
+  "🪋": {
+    "name": "meteor",
+    "slug": "meteor",
+    "group": "Travel & Places",
+    "emoji_version": "18.0",
+    "unicode_version": "18.0",
     "skin_tone_support": false
   },
   "🔥": {
@@ -10857,6 +10915,14 @@
     "unicode_version": "0.6",
     "skin_tone_support": false
   },
+  "🪌": {
+    "name": "eraser",
+    "slug": "eraser",
+    "group": "Objects",
+    "emoji_version": "18.0",
+    "unicode_version": "18.0",
+    "skin_tone_support": false
+  },
   "💼": {
     "name": "briefcase",
     "slug": "briefcase",
@@ -11087,6 +11153,14 @@
     "group": "Objects",
     "emoji_version": "0.7",
     "unicode_version": "0.7",
+    "skin_tone_support": false
+  },
+  "🪍": {
+    "name": "net with handle",
+    "slug": "net_with_handle",
+    "group": "Objects",
+    "emoji_version": "18.0",
+    "unicode_version": "18.0",
     "skin_tone_support": false
   },
   "🔨": {
@@ -14354,8 +14428,8 @@
     "skin_tone_support": false
   },
   "🇭🇲": {
-    "name": "flag Heard & McDonald Islands",
-    "slug": "flag_heard_mcdonald_islands",
+    "name": "flag Heard Island & McDonald Islands",
+    "slug": "flag_heard_island_mcdonald_islands",
     "group": "Flags",
     "emoji_version": "2.0",
     "unicode_version": "2.0",
@@ -15186,8 +15260,8 @@
     "skin_tone_support": false
   },
   "🇸🇭": {
-    "name": "flag St. Helena",
-    "slug": "flag_st_helena",
+    "name": "flag St. Helena, Ascension & Tristan da Cunha",
+    "slug": "flag_st_helena_ascension_tristan_da_cunha",
     "group": "Flags",
     "emoji_version": "2.0",
     "unicode_version": "2.0",
@@ -15330,8 +15404,8 @@
     "skin_tone_support": false
   },
   "🇹🇫": {
-    "name": "flag French Southern Territories",
-    "slug": "flag_french_southern_territories",
+    "name": "flag French Southern and Antarctic Lands",
+    "slug": "flag_french_southern_and_antarctic_lands",
     "group": "Flags",
     "emoji_version": "2.0",
     "unicode_version": "2.0",

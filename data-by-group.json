@@ -92,6 +92,14 @@
         "emoji_version": "14.0"
       },
       {
+        "emoji": "🫫",
+        "skin_tone_support": false,
+        "name": "cracking face",
+        "slug": "cracking_face",
+        "unicode_version": "18.0",
+        "emoji_version": "18.0"
+      },
+      {
         "emoji": "😉",
         "skin_tone_support": false,
         "name": "winking face",
@@ -1637,6 +1645,24 @@
         "slug": "thumbs_down",
         "unicode_version": "0.6",
         "emoji_version": "0.6"
+      },
+      {
+        "emoji": "🫹",
+        "skin_tone_support": true,
+        "skin_tone_support_unicode_version": "18.0",
+        "name": "leftwards thumb sign",
+        "slug": "leftwards_thumb_sign",
+        "unicode_version": "18.0",
+        "emoji_version": "18.0"
+      },
+      {
+        "emoji": "🫺",
+        "skin_tone_support": true,
+        "skin_tone_support_unicode_version": "18.0",
+        "name": "rightwards thumb sign",
+        "slug": "rightwards_thumb_sign",
+        "unicode_version": "18.0",
+        "emoji_version": "18.0"
       },
       {
         "emoji": "✊",
@@ -5754,6 +5780,14 @@
         "emoji_version": "3.0"
       },
       {
+        "emoji": "🫌",
+        "skin_tone_support": false,
+        "name": "monarch butterfly",
+        "slug": "monarch_butterfly",
+        "unicode_version": "18.0",
+        "emoji_version": "18.0"
+      },
+      {
         "emoji": "🐛",
         "skin_tone_support": false,
         "name": "bug",
@@ -6326,6 +6360,14 @@
         "slug": "cucumber",
         "unicode_version": "3.0",
         "emoji_version": "3.0"
+      },
+      {
+        "emoji": "🫝",
+        "skin_tone_support": false,
+        "name": "pickle",
+        "slug": "pickle",
+        "unicode_version": "18.0",
+        "emoji_version": "18.0"
       },
       {
         "emoji": "🥬",
@@ -8094,6 +8136,14 @@
         "emoji_version": "0.6"
       },
       {
+        "emoji": "🛙",
+        "skin_tone_support": false,
+        "name": "lighthouse",
+        "slug": "lighthouse",
+        "unicode_version": "18.0",
+        "emoji_version": "18.0"
+      },
+      {
         "emoji": "⚓",
         "skin_tone_support": false,
         "name": "anchor",
@@ -8884,6 +8934,14 @@
         "slug": "comet",
         "unicode_version": "1.0",
         "emoji_version": "1.0"
+      },
+      {
+        "emoji": "🪋",
+        "skin_tone_support": false,
+        "name": "meteor",
+        "slug": "meteor",
+        "unicode_version": "18.0",
+        "emoji_version": "18.0"
       },
       {
         "emoji": "🔥",
@@ -10898,6 +10956,14 @@
         "emoji_version": "0.6"
       },
       {
+        "emoji": "🪌",
+        "skin_tone_support": false,
+        "name": "eraser",
+        "slug": "eraser",
+        "unicode_version": "18.0",
+        "emoji_version": "18.0"
+      },
+      {
         "emoji": "💼",
         "skin_tone_support": false,
         "name": "briefcase",
@@ -11128,6 +11194,14 @@
         "slug": "old_key",
         "unicode_version": "0.7",
         "emoji_version": "0.7"
+      },
+      {
+        "emoji": "🪍",
+        "skin_tone_support": false,
+        "name": "net with handle",
+        "slug": "net_with_handle",
+        "unicode_version": "18.0",
+        "emoji_version": "18.0"
       },
       {
         "emoji": "🔨",
@@ -14408,8 +14482,8 @@
       {
         "emoji": "🇭🇲",
         "skin_tone_support": false,
-        "name": "flag Heard & McDonald Islands",
-        "slug": "flag_heard_mcdonald_islands",
+        "name": "flag Heard Island & McDonald Islands",
+        "slug": "flag_heard_island_mcdonald_islands",
         "unicode_version": "2.0",
         "emoji_version": "2.0"
       },
@@ -15240,8 +15314,8 @@
       {
         "emoji": "🇸🇭",
         "skin_tone_support": false,
-        "name": "flag St. Helena",
-        "slug": "flag_st_helena",
+        "name": "flag St. Helena, Ascension & Tristan da Cunha",
+        "slug": "flag_st_helena_ascension_tristan_da_cunha",
         "unicode_version": "2.0",
         "emoji_version": "2.0"
       },
@@ -15384,8 +15458,8 @@
       {
         "emoji": "🇹🇫",
         "skin_tone_support": false,
-        "name": "flag French Southern Territories",
-        "slug": "flag_french_southern_territories",
+        "name": "flag French Southern and Antarctic Lands",
+        "slug": "flag_french_southern_and_antarctic_lands",
         "unicode_version": "2.0",
         "emoji_version": "2.0"
       },
